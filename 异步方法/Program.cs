@@ -11,11 +11,14 @@ namespace 异步方法
     {
         static void Main(string[] args)
         {
+            //Console.Beep(1000, 1000);
             Console.WriteLine("调用方法前 主线程ID:" + Thread.CurrentThread.ManagedThreadId + " 时间：" + DateTime.Now);
 
             DoSomething("第一次");
 
             DoSomething("第二次");
+
+            DoSomething2("第三次");
 
             Console.WriteLine("调用方法后 主线程ID:" + Thread.CurrentThread.ManagedThreadId + " 时间：" + DateTime.Now);
 
@@ -36,6 +39,16 @@ namespace 异步方法
 
             Console.WriteLine(str + "Do方法内部await后 线程ID:" + Thread.CurrentThread.ManagedThreadId + " 时间：" + DateTime.Now);
 
+        }
+
+
+        static void DoSomething2(string str)
+        {
+            Console.WriteLine("同步方法中调用异步方法前 线程ID:" + Thread.CurrentThread.ManagedThreadId + " 时间：" + DateTime.Now);
+
+            DoSomething(str);
+
+            Console.WriteLine("同步方法中调用异步方法后 线程ID:" + Thread.CurrentThread.ManagedThreadId + " 时间：" + DateTime.Now);
         }
     }
 }
