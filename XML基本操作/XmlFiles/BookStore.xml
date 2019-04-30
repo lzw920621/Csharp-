@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<bookstore name="新华书店" local="苏州">
+  <book category="CHILDREN">
+    <title>Harry Potter</title>
+    <author>J K. Rowling</author>
+    <year>2005</year>
+    <price>29.99</price>
+  </book>
+  <book category="WEB">
+    <title>Learning XML</title>
+    <author>Erik T. Ray</author>
+    <year>2003</year>
+    <price>39.95</price>
+  </book>
+  <book category="科幻">
+    <title>三体</title>
+    <author>刘慈欣</author>
+    <year>2005</year>
+    <price>45</price>
+  </book>
+</bookstore>
+

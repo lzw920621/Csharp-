@@ -47,6 +47,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "动态加载程序集", "�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "序列化与反序列化", "序列化与反序列化\序列化与反序列化.csproj", "{EAF6CDD8-2A42-41DB-80B8-8C41637D1FF6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XML基本操作", "XML基本操作\XML基本操作.csproj", "{9F1F9254-DC5A-4B95-B5CA-56A9CBEB8ADC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Json基本操作", "Json基本操作\Json基本操作.csproj", "{6C878A7F-1202-4006-BA5C-ADCF164BAE0E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -141,6 +145,14 @@ Global
 		{EAF6CDD8-2A42-41DB-80B8-8C41637D1FF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EAF6CDD8-2A42-41DB-80B8-8C41637D1FF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EAF6CDD8-2A42-41DB-80B8-8C41637D1FF6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F1F9254-DC5A-4B95-B5CA-56A9CBEB8ADC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F1F9254-DC5A-4B95-B5CA-56A9CBEB8ADC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F1F9254-DC5A-4B95-B5CA-56A9CBEB8ADC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F1F9254-DC5A-4B95-B5CA-56A9CBEB8ADC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C878A7F-1202-4006-BA5C-ADCF164BAE0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C878A7F-1202-4006-BA5C-ADCF164BAE0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C878A7F-1202-4006-BA5C-ADCF164BAE0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C878A7F-1202-4006-BA5C-ADCF164BAE0E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
