@@ -46,6 +46,11 @@ namespace 拓展方法
 
             Console.WriteLine(str1.SelfProduct(3));
             Console.ReadKey();
+            
         }
+
+        
     }
+
+    
 }

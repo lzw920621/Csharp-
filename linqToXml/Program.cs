@@ -8,7 +8,15 @@ namespace linqToXml
     {
         static void Main(string[] args)
         {
-            XDocument employees1 = new XDocument(new XElement("Employees", new XElement("Name", "Bob Smith"), new XElement("Name", "Sally Jones")));
+            XDocument employees1 = 
+                new XDocument
+                (
+                    new XElement
+                                ("Employees", 
+                                    new XElement("Name", "Bob Smith"), 
+                                    new XElement("Name", "Sally Jones")
+                                )
+                );
 
             string path= Environment.CurrentDirectory + @"\XmlFile";
             if(Directory.Exists(path)==false)

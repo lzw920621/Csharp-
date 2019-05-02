@@ -51,6 +51,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XML基本操作", "XML基�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Json基本操作", "Json基本操作\Json基本操作.csproj", "{6C878A7F-1202-4006-BA5C-ADCF164BAE0E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "匿名类型", "匿名类型\匿名类型.csproj", "{2D2C2BB0-72CB-4CE6-A7AB-AEF7FA7B0A2D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -153,6 +155,10 @@ Global
 		{6C878A7F-1202-4006-BA5C-ADCF164BAE0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6C878A7F-1202-4006-BA5C-ADCF164BAE0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6C878A7F-1202-4006-BA5C-ADCF164BAE0E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D2C2BB0-72CB-4CE6-A7AB-AEF7FA7B0A2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D2C2BB0-72CB-4CE6-A7AB-AEF7FA7B0A2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D2C2BB0-72CB-4CE6-A7AB-AEF7FA7B0A2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D2C2BB0-72CB-4CE6-A7AB-AEF7FA7B0A2D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
