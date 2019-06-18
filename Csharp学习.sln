@@ -63,6 +63,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "自定义类通过IEnumerab
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "自定义类型转换", "自定义类型转换\自定义类型转换.csproj", "{90CA6D60-444D-49B6-B806-098D1E9404D5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "运算符重载", "运算符重载\运算符重载.csproj", "{A4349633-A0F9-45FC-8D2C-32235DB8815F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -189,6 +191,10 @@ Global
 		{90CA6D60-444D-49B6-B806-098D1E9404D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{90CA6D60-444D-49B6-B806-098D1E9404D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{90CA6D60-444D-49B6-B806-098D1E9404D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4349633-A0F9-45FC-8D2C-32235DB8815F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4349633-A0F9-45FC-8D2C-32235DB8815F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4349633-A0F9-45FC-8D2C-32235DB8815F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4349633-A0F9-45FC-8D2C-32235DB8815F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

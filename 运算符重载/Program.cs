@@ -3,10 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+//using 自定义类型转换;
 
-namespace 自定义类型转换
+namespace 运算符重载
 {
-    public class LimitedInt
+    class LimitedInt
     {
         int theValue = 0;
         public int TheValue
@@ -21,11 +22,11 @@ namespace 自定义类型转换
             }
             set
             {
-                if(value>100)
+                if (value > 100)
                 {
                     theValue = 100;
                 }
-                else if(value<0)
+                else if (value < 0)
                 {
                     theValue = 0;
                 }
@@ -49,25 +50,34 @@ namespace 自定义类型转换
             return li;
         }
 
-        //public static explicit operator int(LimitedInt li)//LimitedInt类型 显式转换为 int类型
-        //{
-        //    return li.TheValue;
-        //}
-        //public static explicit operator LimitedInt(int i)//int类型 显式转换为 LimitedInt
-        //{
-        //    LimitedInt li = new LimitedInt();
-        //    li.TheValue = i;
-        //    return li;
-        //}
-    }
 
+        public static LimitedInt operator -(LimitedInt x)
+        {
+            LimitedInt li = new LimitedInt();
+            li.TheValue = 0;
+            return li;
+        }
+
+        public static LimitedInt operator -(LimitedInt x,LimitedInt y)
+        {
+            LimitedInt li = new LimitedInt();
+            li.TheValue = x.TheValue - y.TheValue;
+            return li;
+        }
+
+        public static LimitedInt operator +(LimitedInt x,LimitedInt y)
+        {
+            LimitedInt li = new LimitedInt();
+            li.TheValue = x.TheValue + y.TheValue;
+            return li;
+        }
+
+    }
 
     class Program
     {
         static void Main(string[] args)
         {
-            LimitedInt li = 500;//整形隐式转换为limitedint
-            int value = li;//limitedint隐式转换为int
         }
     }
 }
