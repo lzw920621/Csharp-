@@ -42,7 +42,10 @@ namespace 反射
 
             MethodInfo method = type1.GetMethod("SelfIntroduce");
             method.Invoke(p, null);
-            
+
+            Type type2 = 1.GetType();
+            string name = type2.Name;
+            string nameSpace = type2.Namespace;
         }
     }
 }

@@ -37,6 +37,7 @@ namespace ConsoleApp1
             list.RemoveAt(1);
             list.ForEach(x => Console.WriteLine(x));
             Console.ReadKey();
+            
         }
     }
 }

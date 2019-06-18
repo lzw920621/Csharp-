@@ -53,6 +53,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Json基本操作", "Json基
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "匿名类型", "匿名类型\匿名类型.csproj", "{2D2C2BB0-72CB-4CE6-A7AB-AEF7FA7B0A2D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "正则表达式", "正则表达式\正则表达式.csproj", "{F1467CAB-D237-4332-8ED6-AC21547E9CD2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "特性", "特性\特性.csproj", "{8A8B5980-313D-4B0A-84E9-093EC8FA17A1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "winform中异步方法的应用", "winform中异步方法的应用\winform中异步方法的应用.csproj", "{31D9F0B0-8CD8-4A49-BAC0-4298C24AEE37}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "自定义类通过IEnumerable接口实现foreach操作", "自定义类通过IEnumerable接口实现foreach操作\自定义类通过IEnumerable接口实现foreach操作.csproj", "{CB4FF2F8-E270-43AD-B673-9A03BD3BD490}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -159,6 +167,22 @@ Global
 		{2D2C2BB0-72CB-4CE6-A7AB-AEF7FA7B0A2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2D2C2BB0-72CB-4CE6-A7AB-AEF7FA7B0A2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2D2C2BB0-72CB-4CE6-A7AB-AEF7FA7B0A2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1467CAB-D237-4332-8ED6-AC21547E9CD2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1467CAB-D237-4332-8ED6-AC21547E9CD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1467CAB-D237-4332-8ED6-AC21547E9CD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1467CAB-D237-4332-8ED6-AC21547E9CD2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A8B5980-313D-4B0A-84E9-093EC8FA17A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A8B5980-313D-4B0A-84E9-093EC8FA17A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A8B5980-313D-4B0A-84E9-093EC8FA17A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A8B5980-313D-4B0A-84E9-093EC8FA17A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31D9F0B0-8CD8-4A49-BAC0-4298C24AEE37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31D9F0B0-8CD8-4A49-BAC0-4298C24AEE37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31D9F0B0-8CD8-4A49-BAC0-4298C24AEE37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31D9F0B0-8CD8-4A49-BAC0-4298C24AEE37}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CB4FF2F8-E270-43AD-B673-9A03BD3BD490}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB4FF2F8-E270-43AD-B673-9A03BD3BD490}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB4FF2F8-E270-43AD-B673-9A03BD3BD490}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB4FF2F8-E270-43AD-B673-9A03BD3BD490}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
