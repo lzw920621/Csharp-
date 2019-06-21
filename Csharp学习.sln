@@ -65,6 +65,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "自定义类型转换", "�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "运算符重载", "运算符重载\运算符重载.csproj", "{A4349633-A0F9-45FC-8D2C-32235DB8815F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "带有超时限制的方法", "带有超时限制的方法\带有超时限制的方法.csproj", "{1D907C76-0803-4055-9A19-2CF1CBBFBAAE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "泛型的协变和逆变", "泛型的协变和逆变\泛型的协变和逆变.csproj", "{97EDF649-C6FF-4616-8B6F-557F3D768F13}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "数组的协变", "数组的协变\数组的协变.csproj", "{813D1C2F-86E0-480B-8C05-F617FF74D0CE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -195,6 +201,18 @@ Global
 		{A4349633-A0F9-45FC-8D2C-32235DB8815F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A4349633-A0F9-45FC-8D2C-32235DB8815F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A4349633-A0F9-45FC-8D2C-32235DB8815F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D907C76-0803-4055-9A19-2CF1CBBFBAAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D907C76-0803-4055-9A19-2CF1CBBFBAAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D907C76-0803-4055-9A19-2CF1CBBFBAAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D907C76-0803-4055-9A19-2CF1CBBFBAAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97EDF649-C6FF-4616-8B6F-557F3D768F13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97EDF649-C6FF-4616-8B6F-557F3D768F13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97EDF649-C6FF-4616-8B6F-557F3D768F13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97EDF649-C6FF-4616-8B6F-557F3D768F13}.Release|Any CPU.Build.0 = Release|Any CPU
+		{813D1C2F-86E0-480B-8C05-F617FF74D0CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{813D1C2F-86E0-480B-8C05-F617FF74D0CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{813D1C2F-86E0-480B-8C05-F617FF74D0CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{813D1C2F-86E0-480B-8C05-F617FF74D0CE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

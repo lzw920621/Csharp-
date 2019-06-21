@@ -77,14 +77,40 @@ namespace 自定义类通过IEnumerable接口实现foreach操作
     }
     */
 
-    public class People : IEnumerable
+    //public class People : IEnumerable
+    //{
+    //    Person[] _people;
+    //    public People(Person[] personArray)
+    //    {            
+    //        _people = personArray;
+    //    }
+
+    //    IEnumerator IEnumerable.GetEnumerator()
+    //    {
+    //        for (int i = 0; i < _people.Length; i++)
+    //        {
+    //            yield return _people[i];
+    //        }
+    //    }
+
+    //}
+
+
+    public class People : IEnumerable<Person>//泛型版本
     {
         Person[] _people;
         public People(Person[] personArray)
-        {            
+        {
             _people = personArray;
         }
 
+        IEnumerator<Person> IEnumerable<Person>.GetEnumerator()
+        {
+            for (int i = 0; i < _people.Length; i++)
+            {
+                yield return _people[i];
+            }
+        }
         IEnumerator IEnumerable.GetEnumerator()
         {
             for (int i = 0; i < _people.Length; i++)
@@ -92,7 +118,6 @@ namespace 自定义类通过IEnumerable接口实现foreach操作
                 yield return _people[i];
             }
         }
-
     }
 
 
