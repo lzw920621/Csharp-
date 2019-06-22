@@ -12,7 +12,10 @@ namespace 泛型的协变和逆变
     }
     class Dog:Animal
     {
+        public void Run()
+        {
 
+        }
     }
     delegate T Factory<T>();
 
@@ -30,7 +33,8 @@ namespace 泛型的协变和逆变
             //不能隐式转换  虽然Dog派生自Animal,
             //但Factory<Dog>并没有从Factory<Animal>派生,
             //这两个委托对象是同级的
-           // Factory<Animal> animalMaker = dogMaker;//错误
+            // Factory<Animal> animalMaker = dogMaker;//错误
+            //Factory<Animal> animalMaker = MakeDog;
 
             //协变 
             NewFactory<Dog> newDogMaker = MakeDog;
@@ -39,6 +43,9 @@ namespace 泛型的协变和逆变
             //逆变
             Action1<Animal> act1 = ActOnAnimal;
             Action1<Dog> dog1 = act1;
+
+            //Action1<Animal> animalAction = ActOnDog;//错误
+            Action1<Dog> dogAction = ActOnAnimal;
             
         }
         static Dog MakeDog()
@@ -54,6 +61,7 @@ namespace 泛型的协变和逆变
         static void ActOnDog(Dog d)
         {
             Console.WriteLine(d.numOfLegs);
+            d.Run();
         }
     }
 }

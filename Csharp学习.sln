@@ -71,6 +71,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "泛型的协变和逆变", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "数组的协变", "数组的协变\数组的协变.csproj", "{813D1C2F-86E0-480B-8C05-F617FF74D0CE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "子窗体控制父窗体显示和隐藏", "子窗体控制父窗体显示和隐藏\子窗体控制父窗体显示和隐藏.csproj", "{BF1F0B68-93A1-4823-98C9-04583E660D48}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "获取CPU序列号_网卡MAC地址_硬盘序列号", "获取CPU序列号_网卡MAC地址_硬盘序列号\获取CPU序列号_网卡MAC地址_硬盘序列号.csproj", "{306868F4-829E-4989-ADC3-8E16667769DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "简单三层架构实现用户登录窗口", "简单三层架构实现用户登录窗口\简单三层架构实现用户登录窗口.csproj", "{C79EE5D8-3F1A-417F-9930-53C71F4939C4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -213,6 +219,18 @@ Global
 		{813D1C2F-86E0-480B-8C05-F617FF74D0CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{813D1C2F-86E0-480B-8C05-F617FF74D0CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{813D1C2F-86E0-480B-8C05-F617FF74D0CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF1F0B68-93A1-4823-98C9-04583E660D48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF1F0B68-93A1-4823-98C9-04583E660D48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF1F0B68-93A1-4823-98C9-04583E660D48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF1F0B68-93A1-4823-98C9-04583E660D48}.Release|Any CPU.Build.0 = Release|Any CPU
+		{306868F4-829E-4989-ADC3-8E16667769DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{306868F4-829E-4989-ADC3-8E16667769DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{306868F4-829E-4989-ADC3-8E16667769DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{306868F4-829E-4989-ADC3-8E16667769DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C79EE5D8-3F1A-417F-9930-53C71F4939C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C79EE5D8-3F1A-417F-9930-53C71F4939C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C79EE5D8-3F1A-417F-9930-53C71F4939C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C79EE5D8-3F1A-417F-9930-53C71F4939C4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

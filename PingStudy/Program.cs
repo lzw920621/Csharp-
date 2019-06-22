@@ -35,7 +35,7 @@ namespace PingStudy
             }
 
             Console.ReadKey();
-
+           
         }
     }
 }
