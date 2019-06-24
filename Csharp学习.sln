@@ -79,6 +79,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "简单三层架构实现用
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "执行Dos命令和批处理", "执行Dos命令和批处理\执行Dos命令和批处理.csproj", "{FEC1D232-ABAC-4E41-A436-D3CEA7F7753D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "配置文件的读写", "配置文件的读写\配置文件的读写.csproj", "{0AE54588-952E-43B4-9828-D2564DB06274}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -237,6 +239,10 @@ Global
 		{FEC1D232-ABAC-4E41-A436-D3CEA7F7753D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FEC1D232-ABAC-4E41-A436-D3CEA7F7753D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FEC1D232-ABAC-4E41-A436-D3CEA7F7753D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0AE54588-952E-43B4-9828-D2564DB06274}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0AE54588-952E-43B4-9828-D2564DB06274}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0AE54588-952E-43B4-9828-D2564DB06274}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0AE54588-952E-43B4-9828-D2564DB06274}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
