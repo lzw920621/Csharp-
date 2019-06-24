@@ -77,6 +77,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "获取CPU序列号_网卡MA
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "简单三层架构实现用户登录窗口", "简单三层架构实现用户登录窗口\简单三层架构实现用户登录窗口.csproj", "{C79EE5D8-3F1A-417F-9930-53C71F4939C4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "执行Dos命令和批处理", "执行Dos命令和批处理\执行Dos命令和批处理.csproj", "{FEC1D232-ABAC-4E41-A436-D3CEA7F7753D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -231,6 +233,10 @@ Global
 		{C79EE5D8-3F1A-417F-9930-53C71F4939C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C79EE5D8-3F1A-417F-9930-53C71F4939C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C79EE5D8-3F1A-417F-9930-53C71F4939C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FEC1D232-ABAC-4E41-A436-D3CEA7F7753D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEC1D232-ABAC-4E41-A436-D3CEA7F7753D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEC1D232-ABAC-4E41-A436-D3CEA7F7753D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEC1D232-ABAC-4E41-A436-D3CEA7F7753D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

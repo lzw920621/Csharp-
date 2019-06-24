@@ -23,7 +23,7 @@ namespace 简单三层架构实现用户登录窗口
             string userName = tb_UserName.Text.Trim();  
             string password = tb_Password.Text;
 
-            BLL_层.LoginManager mgr = new BLL_层.LoginManager();
+            BLL_层.LoginManager mgr = new BLL_层.LoginManager();//业务层
 
             bool isLoginSuccess = await Task.Run(() => { return mgr.UserLogin(userName, password); });
 

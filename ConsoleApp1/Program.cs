@@ -37,7 +37,9 @@ namespace ConsoleApp1
             list.RemoveAt(1);
             list.ForEach(x => Console.WriteLine(x));
             Console.ReadKey();
-            
+            string str = "一二三四五";
+            int length = str.Length;
+            char letter = str[0];
         }
     }
 }

@@ -14,6 +14,7 @@ namespace 简单三层架构实现用户登录窗口.DAL_层
         {
             using (SqlConnection conn = new SqlConnection(DatabaseUtility.ConnString))
             {
+                
                 //创建一个命令对象，并添加命令
                 SqlCommand cmd = conn.CreateCommand();
                 cmd.CommandText = @"SELECT ID,UserName,Password FROM USERS WHERE UserName=@UserName AND Password=@Password";

@@ -10,7 +10,7 @@ namespace 简单三层架构实现用户登录窗口.BLL_层
     {
         public bool UserLogin(string userName, string Password)
         {
-            DAL_层.UserDAO uDAO = new DAL_层.UserDAO();  //
+            DAL_层.UserDAO uDAO = new DAL_层.UserDAO();  //数据访问层
             Model.UserInfo user = uDAO.SelectUser(userName, Password);  //通过ui中填写的内容 返回来相应的数据
 
             if (user != null)
