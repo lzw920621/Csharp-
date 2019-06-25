@@ -33,7 +33,7 @@ namespace 反射
         {
             person p = new person();
             //Type type = typeof(person);
-
+            //Type type1 = typeof(person);
             Type type1 = p.GetType();
             MethodInfo[] methods = type1.GetMethods();
             PropertyInfo[] properties = type1.GetProperties();
@@ -45,7 +45,7 @@ namespace 反射
 
             Type type2 = 1.GetType();
             string name = type2.Name;
-            string nameSpace = type2.Namespace;
+            string nameSpace = type2.Namespace;            
         }
     }
 }

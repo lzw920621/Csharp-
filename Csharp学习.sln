@@ -81,6 +81,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "执行Dos命令和批处理
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "配置文件的读写", "配置文件的读写\配置文件的读写.csproj", "{0AE54588-952E-43B4-9828-D2564DB06274}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "析构函数", "析构函数\析构函数.csproj", "{95FF30A4-5F32-4891-8F86-EC2AB46F2803}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "标准Dispose模式", "标准Dispose模式\标准Dispose模式.csproj", "{198573C7-55B2-4949-8F64-28D4BEDEAF0E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -243,6 +247,14 @@ Global
 		{0AE54588-952E-43B4-9828-D2564DB06274}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0AE54588-952E-43B4-9828-D2564DB06274}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0AE54588-952E-43B4-9828-D2564DB06274}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95FF30A4-5F32-4891-8F86-EC2AB46F2803}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95FF30A4-5F32-4891-8F86-EC2AB46F2803}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95FF30A4-5F32-4891-8F86-EC2AB46F2803}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95FF30A4-5F32-4891-8F86-EC2AB46F2803}.Release|Any CPU.Build.0 = Release|Any CPU
+		{198573C7-55B2-4949-8F64-28D4BEDEAF0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{198573C7-55B2-4949-8F64-28D4BEDEAF0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{198573C7-55B2-4949-8F64-28D4BEDEAF0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{198573C7-55B2-4949-8F64-28D4BEDEAF0E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
