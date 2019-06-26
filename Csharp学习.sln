@@ -85,6 +85,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "析构函数", "析构函�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "标准Dispose模式", "标准Dispose模式\标准Dispose模式.csproj", "{198573C7-55B2-4949-8F64-28D4BEDEAF0E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NPOI读写excel", "NPOI读写excel\NPOI读写excel.csproj", "{C5176B84-D14A-4FB2-8187-8BAE05765728}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "获取当前程序所在目录", "获取当前程序所在目录\获取当前程序所在目录.csproj", "{37189DE4-734B-4CFE-823D-AE4FFE3EAA18}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -255,6 +259,14 @@ Global
 		{198573C7-55B2-4949-8F64-28D4BEDEAF0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{198573C7-55B2-4949-8F64-28D4BEDEAF0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{198573C7-55B2-4949-8F64-28D4BEDEAF0E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5176B84-D14A-4FB2-8187-8BAE05765728}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5176B84-D14A-4FB2-8187-8BAE05765728}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5176B84-D14A-4FB2-8187-8BAE05765728}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5176B84-D14A-4FB2-8187-8BAE05765728}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37189DE4-734B-4CFE-823D-AE4FFE3EAA18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37189DE4-734B-4CFE-823D-AE4FFE3EAA18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37189DE4-734B-4CFE-823D-AE4FFE3EAA18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37189DE4-734B-4CFE-823D-AE4FFE3EAA18}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
