@@ -51,7 +51,7 @@ namespace NPOI读写excel
                 {
                     workbook = new XSSFWorkbook(fs);
                 }
-                else if (extension.Equals(".xls")) // 2003版本  
+                else if (extension.Equals(".xls")) // 2003版本
                 {
                     workbook = new HSSFWorkbook(fs);
                 }
@@ -95,7 +95,6 @@ namespace NPOI读写excel
                                 dataTable.Columns.Add(column);
                             }
                         }
-
 
                         //填充行元素  
                         for (int i = startRow; i <= rowCount; ++i)

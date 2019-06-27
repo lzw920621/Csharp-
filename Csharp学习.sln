@@ -89,6 +89,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NPOI读写excel", "NPOI读�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "获取当前程序所在目录", "获取当前程序所在目录\获取当前程序所在目录.csproj", "{37189DE4-734B-4CFE-823D-AE4FFE3EAA18}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataGridView绑定DataTable数据源并指定对应", "DataGridView绑定DataTable数据源并指定对应\DataGridView绑定DataTable数据源并指定对应.csproj", "{74219350-52D9-4B83-8F66-7A1753856F71}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -267,6 +269,10 @@ Global
 		{37189DE4-734B-4CFE-823D-AE4FFE3EAA18}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{37189DE4-734B-4CFE-823D-AE4FFE3EAA18}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{37189DE4-734B-4CFE-823D-AE4FFE3EAA18}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74219350-52D9-4B83-8F66-7A1753856F71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74219350-52D9-4B83-8F66-7A1753856F71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74219350-52D9-4B83-8F66-7A1753856F71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74219350-52D9-4B83-8F66-7A1753856F71}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
