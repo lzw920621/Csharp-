@@ -91,6 +91,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "获取当前程序所在目
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataGridView绑定DataTable数据源并指定对应", "DataGridView绑定DataTable数据源并指定对应\DataGridView绑定DataTable数据源并指定对应.csproj", "{74219350-52D9-4B83-8F66-7A1753856F71}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "泛型的类型约束", "泛型的类型约束\泛型的类型约束.csproj", "{82F25D76-4F35-4028-BFF0-0DAE4DE2BA0F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -273,6 +275,10 @@ Global
 		{74219350-52D9-4B83-8F66-7A1753856F71}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{74219350-52D9-4B83-8F66-7A1753856F71}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{74219350-52D9-4B83-8F66-7A1753856F71}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82F25D76-4F35-4028-BFF0-0DAE4DE2BA0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82F25D76-4F35-4028-BFF0-0DAE4DE2BA0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82F25D76-4F35-4028-BFF0-0DAE4DE2BA0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82F25D76-4F35-4028-BFF0-0DAE4DE2BA0F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
