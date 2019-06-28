@@ -31,8 +31,8 @@ namespace 泛型单例
         }
     }
 
-    //支持非公共的无参构造函数的
-    public class Singleton<T> where T : class
+    //支持非公共的无参构造函数的   推荐使用这种 
+    public abstract class Singleton<T> where T : class
     {
         private static T instance;
         private static object lockObject = new object();
