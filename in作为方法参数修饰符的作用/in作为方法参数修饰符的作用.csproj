@@ -4,13 +4,14 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{E537BB31-3B0D-45A2-B018-97460057C571}</ProjectGuid>
+    <ProjectGuid>{97DDCBD5-1396-4181-ACFC-DCA71E728AA3}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>元组的使用</RootNamespace>
-    <AssemblyName>元组的使用</AssemblyName>
-    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <RootNamespace>in作为方法参数修饰符的作用</RootNamespace>
+    <AssemblyName>in作为方法参数修饰符的作用</AssemblyName>
+    <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>

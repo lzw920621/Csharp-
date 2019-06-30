@@ -10,7 +10,7 @@ namespace 元组的使用
     {
         static void Main(string[] args)
         {
-            
+           
             Tuple<int, char, string, bool> myTuple = new Tuple<int, char, string, bool>(1, 'a', "abc", true);
             Console.WriteLine(myTuple.Item1);
             Console.WriteLine(myTuple.Item2);
