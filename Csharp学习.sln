@@ -105,6 +105,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "元组的使用", "元组�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "in作为方法参数修饰符的作用", "in作为方法参数修饰符的作用\in作为方法参数修饰符的作用.csproj", "{97DDCBD5-1396-4181-ACFC-DCA71E728AA3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "checked和unchecked关键字", "checked和unchecked关键字\checked和unchecked关键字.csproj", "{08B45EF4-F8F2-4C7B-8B13-961AE82F8220}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -315,6 +317,10 @@ Global
 		{97DDCBD5-1396-4181-ACFC-DCA71E728AA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{97DDCBD5-1396-4181-ACFC-DCA71E728AA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{97DDCBD5-1396-4181-ACFC-DCA71E728AA3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08B45EF4-F8F2-4C7B-8B13-961AE82F8220}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08B45EF4-F8F2-4C7B-8B13-961AE82F8220}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08B45EF4-F8F2-4C7B-8B13-961AE82F8220}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08B45EF4-F8F2-4C7B-8B13-961AE82F8220}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
