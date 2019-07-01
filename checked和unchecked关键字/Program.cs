@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace checked和unchecked关键字
 {
+    //VS中可以在项目的属性页面选择 生成 标签,  高级设置,勾选溢出检查,这样会对程序中所用的计算进行溢出检查
+
+
     //checked 关键字用于对整型算术运算和转换显式启用溢出检查。
 
     //unchecked 关键字用于取消整型算术运算和转换的溢出检查。
@@ -37,8 +40,6 @@ namespace checked和unchecked关键字
                 int i5 = 2147483647 + 10;
             }
             int i6 = unchecked(2147483647 + 10);
-
-
 
         }
     }
