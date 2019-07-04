@@ -113,6 +113,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "索引器", "索引器\索�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "winform取消方向键对控件焦点控制的实现方法", "winform取消方向键对控件焦点控制的实现方法\winform取消方向键对控件焦点控制的实现方法.csproj", "{F9D70405-2FDE-4356-96E8-61D25587C1C8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "winform程序添加快捷键", "winform程序添加快捷键\winform程序添加快捷键.csproj", "{C1718355-44DE-44B9-BCC8-98765BA430BC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -339,6 +341,10 @@ Global
 		{F9D70405-2FDE-4356-96E8-61D25587C1C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F9D70405-2FDE-4356-96E8-61D25587C1C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F9D70405-2FDE-4356-96E8-61D25587C1C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1718355-44DE-44B9-BCC8-98765BA430BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1718355-44DE-44B9-BCC8-98765BA430BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1718355-44DE-44B9-BCC8-98765BA430BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1718355-44DE-44B9-BCC8-98765BA430BC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
