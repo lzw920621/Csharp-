@@ -111,6 +111,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListView的使用", "ListVi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "索引器", "索引器\索引器.csproj", "{A7059E44-3790-4A83-A4AD-D34C4007BFEC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "winform取消方向键对控件焦点控制的实现方法", "winform取消方向键对控件焦点控制的实现方法\winform取消方向键对控件焦点控制的实现方法.csproj", "{F9D70405-2FDE-4356-96E8-61D25587C1C8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -333,6 +335,10 @@ Global
 		{A7059E44-3790-4A83-A4AD-D34C4007BFEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A7059E44-3790-4A83-A4AD-D34C4007BFEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A7059E44-3790-4A83-A4AD-D34C4007BFEC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9D70405-2FDE-4356-96E8-61D25587C1C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9D70405-2FDE-4356-96E8-61D25587C1C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9D70405-2FDE-4356-96E8-61D25587C1C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9D70405-2FDE-4356-96E8-61D25587C1C8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
