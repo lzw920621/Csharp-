@@ -115,6 +115,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "winform取消方向键对�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "winform程序添加快捷键", "winform程序添加快捷键\winform程序添加快捷键.csproj", "{C1718355-44DE-44B9-BCC8-98765BA430BC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "winform加载多控件闪烁问题的解决办法", "winform加载多控件闪烁问题的解决办法\winform加载多控件闪烁问题的解决办法.csproj", "{53FCB179-E6D3-4A7B-BB6B-4D99BF7D753C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -345,6 +347,10 @@ Global
 		{C1718355-44DE-44B9-BCC8-98765BA430BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C1718355-44DE-44B9-BCC8-98765BA430BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C1718355-44DE-44B9-BCC8-98765BA430BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53FCB179-E6D3-4A7B-BB6B-4D99BF7D753C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53FCB179-E6D3-4A7B-BB6B-4D99BF7D753C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53FCB179-E6D3-4A7B-BB6B-4D99BF7D753C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53FCB179-E6D3-4A7B-BB6B-4D99BF7D753C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

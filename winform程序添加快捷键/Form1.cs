@@ -23,6 +23,8 @@ namespace winform程序添加快捷键
             this.KeyPreview = true;//当前窗体接受按键事件,如果没有这一项,那么当焦点在某个控件上时就无法响应按键了
         }
 
+
+        //窗体快捷键，只在窗体上有效果
         private void Form1_KeyDown(object sender, KeyEventArgs e)
         {
             if(e.Modifiers==Keys.Control&&e.KeyCode==Keys.S)//按下ctrl+S
