@@ -10,7 +10,7 @@ namespace 标准Dispose模式
     {
         bool disposed = false;//标志位 释放状态
 
-        ~MyClass()
+        ~MyClass()//析构函数 也叫终结器  不能手动调用  垃圾回收器会自动调用它
         {
             Dispose(false);
         }

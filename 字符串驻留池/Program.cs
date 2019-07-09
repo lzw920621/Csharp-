@@ -38,6 +38,7 @@ namespace 字符串驻留池
             StringBuilder sb = new StringBuilder("abc");            //运行时期动态创建的字符串不会被加入到驻留池中
             string d = sb.ToString();
             bool isEqual1= ReferenceEquals(a, d);//引用不相同
+            bool isEqual2 = a.Equals(d);
         }
     }
 }
