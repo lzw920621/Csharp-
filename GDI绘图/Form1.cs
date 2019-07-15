@@ -24,6 +24,7 @@ namespace GDI绘图
 
         private void Form1_Paint(object sender, PaintEventArgs e)
         {
+            
             Graphics myGraphics = e.Graphics;
             Pen myPen = new Pen(Color.Blue, 2);
             //绘制直线
@@ -42,6 +43,8 @@ namespace GDI绘图
             Brush myBrush = new SolidBrush(Color.Purple);
             //绘制带填充色的矩形
             myGraphics.FillRectangle(myBrush, new Rectangle(100, 100, 50, 70));
+            
+
         }
     }
 }

@@ -123,6 +123,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "字符串驻留池", "字�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GDI绘图", "GDI绘图\GDI绘图.csproj", "{03AD9C1C-6246-4512-9188-C895C5A409C2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GDI绘制验证码", "GDI绘制验证码\GDI绘制验证码.csproj", "{80293012-5B6F-4C7D-8881-4A1DD9AB7DA6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -369,6 +371,10 @@ Global
 		{03AD9C1C-6246-4512-9188-C895C5A409C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{03AD9C1C-6246-4512-9188-C895C5A409C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{03AD9C1C-6246-4512-9188-C895C5A409C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80293012-5B6F-4C7D-8881-4A1DD9AB7DA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80293012-5B6F-4C7D-8881-4A1DD9AB7DA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80293012-5B6F-4C7D-8881-4A1DD9AB7DA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80293012-5B6F-4C7D-8881-4A1DD9AB7DA6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
