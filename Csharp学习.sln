@@ -121,6 +121,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lazy实现对象延迟加�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "字符串驻留池", "字符串驻留池\字符串驻留池.csproj", "{EDBCA4C9-B841-4E1C-92E9-4671E1AB0B9F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GDI绘图", "GDI绘图\GDI绘图.csproj", "{03AD9C1C-6246-4512-9188-C895C5A409C2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -363,6 +365,10 @@ Global
 		{EDBCA4C9-B841-4E1C-92E9-4671E1AB0B9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EDBCA4C9-B841-4E1C-92E9-4671E1AB0B9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EDBCA4C9-B841-4E1C-92E9-4671E1AB0B9F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03AD9C1C-6246-4512-9188-C895C5A409C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03AD9C1C-6246-4512-9188-C895C5A409C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03AD9C1C-6246-4512-9188-C895C5A409C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03AD9C1C-6246-4512-9188-C895C5A409C2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
