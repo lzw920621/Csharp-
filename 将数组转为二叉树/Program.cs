@@ -12,7 +12,7 @@ namespace 将数组转为二叉树
         {
             int[] array = Enumerable.Range(0, 20).ToArray();
 
-            TreeNode tree = ArrayToBinaryTree(array, 0, array.Length - 1);
+            TreeNode tree = ArrayToBinaryTree_2(array);
             PreOrder(tree);
             Console.WriteLine("-------------------------------------");
             InOrder(tree);
@@ -20,7 +20,8 @@ namespace 将数组转为二叉树
             PostOrder(tree);
             Console.WriteLine("--------------------------------------");
             LevelOrder(tree);
-
+            Console.WriteLine("--------------------------------------");
+            Console.Write("Height : "+GetTreeHeight(tree));
             Console.ReadKey();
         }
 
@@ -33,6 +34,35 @@ namespace 将数组转为二叉树
             treeNode.right = ArrayToBinaryTree(array, mid + 1, high);
             return treeNode;
         }
+
+        public static TreeNode ArrayToBinaryTree_2(int[] array)
+        {
+            if (array == null || array.Length < 1) return null;
+            
+            Queue<TreeNode> queue = new Queue<TreeNode>();
+
+            TreeNode root = new TreeNode(array[0]);
+            int index = 0;
+            queue.Enqueue(root);
+            while(queue.Count>0)
+            {
+                TreeNode current = queue.Dequeue();
+                if(2*index+1<array.Length)
+                {
+                    current.left = new TreeNode(array[2 * index + 1]);
+                    queue.Enqueue(current.left);
+                }
+                if(2*index+2<array.Length)
+                {
+                    current.right = new TreeNode(array[2 * index] + 2);
+                    queue.Enqueue(current.right);
+                }
+                index++;
+            }
+
+            return root;
+        }
+
 
         public static void PreOrder(TreeNode treeNode)//先序遍历
         {
@@ -80,6 +110,20 @@ namespace 将数组转为二叉树
                 {
                     queue.Enqueue(current.right);
                 }
+            }
+        }
+        
+        public static int GetTreeHeight(TreeNode node)//树的高度
+        {
+            if (node == null)
+            {
+                return 0;
+            }
+            else
+            {
+                int leftHeight = GetTreeHeight(node.left);
+                int rightHeight = GetTreeHeight(node.right);
+                return leftHeight > rightHeight ? leftHeight + 1 : rightHeight + 1;
             }
         }
     }
