@@ -21,7 +21,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RealTimeChart", "RealTimeCh
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConstAndReadonly", "ConstAndReadonly\ConstAndReadonly.csproj", "{355744D5-014B-479D-B596-2873264D72BC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "窗体间传值", "窗体间传值\窗体间传值.csproj", "{E1F53D47-4844-49FD-9CB5-012543FD32CB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "winform窗体间传值", "窗体间传值\winform窗体间传值.csproj", "{E1F53D47-4844-49FD-9CB5-012543FD32CB}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "多线程死锁", "多线程死锁\多线程死锁.csproj", "{906776A1-A06A-4C66-AB5B-064073E3CA83}"
 EndProject
@@ -136,6 +136,14 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "非独占延时", "非独占延时\非独占延时.csproj", "{562C0D60-F8DD-43A6-9A7B-B63E447D90BD}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "自定义特性", "自定义特性\自定义特性.csproj", "{5EA0DA70-500C-475E-B526-91142CC94488}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "winform菜单控件", "winform菜单控件\winform菜单控件.csproj", "{7CAB99AF-3FAE-46DF-AAB5-80CAD51E758D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "winform右键菜单", "winform右键菜单\winform右键菜单.csproj", "{11712B70-4E94-4C17-8477-C5B5C551F636}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "winform托盘", "winform托盘\winform托盘.csproj", "{F916B953-01E3-476F-A478-71AB40DD59B2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "winform状态栏", "winform状态栏\winform状态栏.csproj", "{ABBEE375-4AA5-46A8-B676-215520DDD3B4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -411,6 +419,22 @@ Global
 		{5EA0DA70-500C-475E-B526-91142CC94488}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5EA0DA70-500C-475E-B526-91142CC94488}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5EA0DA70-500C-475E-B526-91142CC94488}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7CAB99AF-3FAE-46DF-AAB5-80CAD51E758D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CAB99AF-3FAE-46DF-AAB5-80CAD51E758D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CAB99AF-3FAE-46DF-AAB5-80CAD51E758D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CAB99AF-3FAE-46DF-AAB5-80CAD51E758D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11712B70-4E94-4C17-8477-C5B5C551F636}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11712B70-4E94-4C17-8477-C5B5C551F636}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11712B70-4E94-4C17-8477-C5B5C551F636}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11712B70-4E94-4C17-8477-C5B5C551F636}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F916B953-01E3-476F-A478-71AB40DD59B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F916B953-01E3-476F-A478-71AB40DD59B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F916B953-01E3-476F-A478-71AB40DD59B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F916B953-01E3-476F-A478-71AB40DD59B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABBEE375-4AA5-46A8-B676-215520DDD3B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABBEE375-4AA5-46A8-B676-215520DDD3B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABBEE375-4AA5-46A8-B676-215520DDD3B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABBEE375-4AA5-46A8-B676-215520DDD3B4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
