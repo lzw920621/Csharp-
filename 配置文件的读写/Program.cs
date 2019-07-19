@@ -7,6 +7,10 @@ using System.Configuration;
 
 namespace 配置文件的读写
 {
+    //AppConfig的注意点: 只有主项目(当前启动项目)中的config才起作用,
+    //config文件不能改名(控制台 winform中叫App.config,asp.net中叫web.config),不能建多个config,也不能建多个AppSetting段
+
+
     class Program
     {
         static void Main(string[] args)

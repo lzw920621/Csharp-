@@ -24,6 +24,15 @@ namespace 反射
         {
             Console.WriteLine("我叫" + this.name + "今年" + age + "岁" + "我喜欢" + this.hobby);
         }
+
+        public void MethodA(string str,int n)
+        {
+
+        }
+        public void MethodA()
+        {
+
+        }
     }
 
 
@@ -36,6 +45,9 @@ namespace 反射
             //Type type1 = typeof(person);
             Type type1 = p.GetType();
             MethodInfo[] methods = type1.GetMethods();
+
+            MethodInfo methodA = type1.GetMethod("MethodA", new Type[2] { typeof(string), typeof(int) });//获取名称为MethodA,参数为string,int的方法;
+            MethodInfo methodA2= type1.GetMethod("MethodA", new Type[0]);//获取名称为MethodA,无参的方法
             PropertyInfo[] properties = type1.GetProperties();
             FieldInfo[] fieldInfos = type1.GetFields();
             MemberInfo[] memberinfos = type1.GetMembers();
