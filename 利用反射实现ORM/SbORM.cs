@@ -17,31 +17,27 @@ namespace 利用反射实现ORM
             Type type = typeof(T);
             string tableName = type.Name;//类型名称(同时也是其对应的表的名称)
             PropertyInfo[] propertyInfos = type.GetProperties();//获取该类所有的属性
-            string[] propertyNames = new string[propertyInfos.Length];//属性名称的数组(同时也是表中相应的字段名称)
-            for (int i = 0; i < propertyInfos.Length; i++)
-            {
-                propertyNames[i] = propertyInfos[i].Name;//获取属性名称
-            }
-
+            
             StringBuilder sqlStr = new StringBuilder();//sql语句
             sqlStr.Append("insert into " + tableName + "(");
-            for (int i = 0; i < propertyNames.Length; i++)
+            for (int i = 0; i < propertyInfos.Length; i++)
             {
+                string fieldName = propertyInfos[i].Name;
                 object value = propertyInfos[i].GetValue(t, null);
 
                 if (value != null)//如果属性的值为null 则不对该字段进行插入操作
                 {
-                    if (i != propertyNames.Length - 1)
+                    if (i != propertyInfos.Length - 1)
                     {
-                        sqlStr.Append(" " + propertyNames[i] + ",");
+                        sqlStr.Append(" " + fieldName + ",");
                     }
                     else
                     {
-                        sqlStr.Append(" " + propertyNames[i] + "");
+                        sqlStr.Append(" " + fieldName + ")");
                     }
                 }                    
             }
-            sqlStr.Append(") values(");
+            sqlStr.Append(" values(");
 
             for (int i = 0; i < propertyInfos.Length; i++)
             {
@@ -49,27 +45,17 @@ namespace 利用反射实现ORM
 
                 if (value != null)
                 {
+                    if (propertyInfos[i].PropertyType == typeof(string) || propertyInfos[i].PropertyType == typeof(DateTime))
+                    {
+                        value = "'" + value + "'";                        
+                    }
                     if (i != propertyInfos.Length - 1)
                     {
-                        if (propertyInfos[i].PropertyType == typeof(string) || propertyInfos[i].PropertyType == typeof(DateTime))
-                        {
-                            sqlStr.Append("'" + value + "',");
-                        }
-                        else
-                        {
-                            sqlStr.Append("" + value + ",");
-                        }
+                        sqlStr.Append("" + value + ",");
                     }
                     else
                     {
-                        if (propertyInfos[i].PropertyType == typeof(string) || propertyInfos[i].PropertyType == typeof(DateTime))
-                        {
-                            sqlStr.Append("'" + value + "')");
-                        }
-                        else
-                        {
-                            sqlStr.Append("" + value + ")");
-                        }
+                        sqlStr.Append("" + value + ")");
                     }
                 }
             }
@@ -95,17 +81,13 @@ namespace 利用反射实现ORM
             }
             else
             {                
-                PropertyInfo[] propertyInfos = type.GetProperties();//获取该类所有的属性
-                string[] propertyNames = new string[propertyInfos.Length];//属性名称的数组(同时也是表中相应的字段名称)
-                for (int i = 0; i < propertyInfos.Length; i++)
-                {
-                    propertyNames[i] = propertyInfos[i].Name;//获取属性名称
-                }
+                PropertyInfo[] propertyInfos = type.GetProperties();//获取该类所有的属性                
                 T obj = new T();
                 for (int i = 0; i < propertyInfos.Length; i++)
                 {
                     //获取对应属性的值
-                    object value = dt.Rows[0][propertyNames[i]];
+                    string propertyName = propertyInfos[i].Name;//属性名称
+                    object value = dt.Rows[0][propertyName];//属性对应的值
                     propertyInfos[i].SetValue(obj, value);
                 }
 
@@ -122,10 +104,23 @@ namespace 利用反射实现ORM
             string sql = "update " + tableName + " set ";
             for (int i = 0; i < propertyInfos.Length; i++)
             {
-                string name = propertyInfos[i].Name;
-                
+                string fieldName = propertyInfos[i].Name;//属性名称(也是表中的字段名称)
+                object value = propertyInfos[i].GetValue(t);//字段的值
+                if (propertyInfos[i].PropertyType == typeof(string) || propertyInfos[i].PropertyType == typeof(DateTime))
+                {
+                    value = "'" + value + "'";
+                }
+                if (i!=propertyInfos.Length-1)
+                {
+                    sql += fieldName + "=" + value + ",";
+                }
+                else
+                {
+                    sql += fieldName + "=" + value;
+                }
             }
-            
+            sql += " where id=" + type.GetProperty("ID").GetValue(t);
+
             MySqlHelper sqlHelper = new MySqlHelper();
             int count = sqlHelper.ExecuteNonQueryCommand(sql);
             return count == 1 ? true : false;
