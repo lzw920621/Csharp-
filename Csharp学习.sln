@@ -145,6 +145,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "winform托盘", "winform托
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "winform状态栏", "winform状态栏\winform状态栏.csproj", "{ABBEE375-4AA5-46A8-B676-215520DDD3B4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "winform的PropertyGrid", "winform的PropertyGrid\winform的PropertyGrid.csproj", "{7AAAACD2-1B49-4248-972E-74D7AD161B99}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "利用反射实现浅拷贝", "利用反射实现浅拷贝\利用反射实现浅拷贝.csproj", "{E8AEB079-EBEA-4DC9-A613-E2B0C9112898}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -435,6 +439,14 @@ Global
 		{ABBEE375-4AA5-46A8-B676-215520DDD3B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ABBEE375-4AA5-46A8-B676-215520DDD3B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ABBEE375-4AA5-46A8-B676-215520DDD3B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7AAAACD2-1B49-4248-972E-74D7AD161B99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7AAAACD2-1B49-4248-972E-74D7AD161B99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7AAAACD2-1B49-4248-972E-74D7AD161B99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7AAAACD2-1B49-4248-972E-74D7AD161B99}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8AEB079-EBEA-4DC9-A613-E2B0C9112898}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8AEB079-EBEA-4DC9-A613-E2B0C9112898}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8AEB079-EBEA-4DC9-A613-E2B0C9112898}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8AEB079-EBEA-4DC9-A613-E2B0C9112898}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
