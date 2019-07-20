@@ -149,6 +149,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "winform的PropertyGrid", "w
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "利用反射实现浅拷贝", "利用反射实现浅拷贝\利用反射实现浅拷贝.csproj", "{E8AEB079-EBEA-4DC9-A613-E2B0C9112898}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "利用反射实现ORM", "利用反射实现ORM\利用反射实现ORM.csproj", "{C7F1E5D8-3C4A-4CA5-8AD3-6D7D5FA2C2CB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -447,6 +449,10 @@ Global
 		{E8AEB079-EBEA-4DC9-A613-E2B0C9112898}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E8AEB079-EBEA-4DC9-A613-E2B0C9112898}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E8AEB079-EBEA-4DC9-A613-E2B0C9112898}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7F1E5D8-3C4A-4CA5-8AD3-6D7D5FA2C2CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7F1E5D8-3C4A-4CA5-8AD3-6D7D5FA2C2CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7F1E5D8-3C4A-4CA5-8AD3-6D7D5FA2C2CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7F1E5D8-3C4A-4CA5-8AD3-6D7D5FA2C2CB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
