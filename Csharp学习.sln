@@ -151,6 +151,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "利用反射实现浅拷贝
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "利用反射实现ORM", "利用反射实现ORM\利用反射实现ORM.csproj", "{C7F1E5D8-3C4A-4CA5-8AD3-6D7D5FA2C2CB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "不安全代码", "不安全代码\不安全代码.csproj", "{1FA84947-6956-4FD3-8D2D-DA4855910CE0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -453,6 +455,10 @@ Global
 		{C7F1E5D8-3C4A-4CA5-8AD3-6D7D5FA2C2CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C7F1E5D8-3C4A-4CA5-8AD3-6D7D5FA2C2CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C7F1E5D8-3C4A-4CA5-8AD3-6D7D5FA2C2CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1FA84947-6956-4FD3-8D2D-DA4855910CE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FA84947-6956-4FD3-8D2D-DA4855910CE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FA84947-6956-4FD3-8D2D-DA4855910CE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FA84947-6956-4FD3-8D2D-DA4855910CE0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
