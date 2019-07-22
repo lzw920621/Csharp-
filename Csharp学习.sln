@@ -37,8 +37,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HashtableStudy", "Hashtable
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "异步方法", "异步方法\异步方法.csproj", "{5255D589-8419-4E6A-8C49-DAF6FC6AACA6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityFrameworkStudy", "EntityFrameworkStudy\EntityFrameworkStudy.csproj", "{22191F14-1CB9-4F17-96F3-6E98D4353F08}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Random_Next产生不重复随机数", "Random.Next产生不重复随机数\Random_Next产生不重复随机数.csproj", "{5BC73E07-B1D1-4BF6-82C5-33847301C070}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "反射", "反射\反射.csproj", "{B3A44CC2-43EA-49BA-B154-B00373B27185}"
@@ -155,6 +153,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "不安全代码", "不安�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "关于结构实现接口的一些问题", "关于结构实现接口的一些问题\关于结构实现接口的一些问题.csproj", "{BB5DFEBC-4015-418D-A6C7-9848539CB4CF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ORM框架之EntityFramework", "ORM框架之EntityFramework\ORM框架之EntityFramework.csproj", "{3D6653E3-2C4C-4411-A99D-2B8769FCB116}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -229,10 +229,6 @@ Global
 		{5255D589-8419-4E6A-8C49-DAF6FC6AACA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5255D589-8419-4E6A-8C49-DAF6FC6AACA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5255D589-8419-4E6A-8C49-DAF6FC6AACA6}.Release|Any CPU.Build.0 = Release|Any CPU
-		{22191F14-1CB9-4F17-96F3-6E98D4353F08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{22191F14-1CB9-4F17-96F3-6E98D4353F08}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{22191F14-1CB9-4F17-96F3-6E98D4353F08}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{22191F14-1CB9-4F17-96F3-6E98D4353F08}.Release|Any CPU.Build.0 = Release|Any CPU
 		{5BC73E07-B1D1-4BF6-82C5-33847301C070}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{5BC73E07-B1D1-4BF6-82C5-33847301C070}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5BC73E07-B1D1-4BF6-82C5-33847301C070}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -465,6 +461,10 @@ Global
 		{BB5DFEBC-4015-418D-A6C7-9848539CB4CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BB5DFEBC-4015-418D-A6C7-9848539CB4CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BB5DFEBC-4015-418D-A6C7-9848539CB4CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D6653E3-2C4C-4411-A99D-2B8769FCB116}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D6653E3-2C4C-4411-A99D-2B8769FCB116}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D6653E3-2C4C-4411-A99D-2B8769FCB116}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D6653E3-2C4C-4411-A99D-2B8769FCB116}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
