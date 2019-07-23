@@ -155,6 +155,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "关于结构实现接口的
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ORM框架之EntityFramework", "ORM框架之EntityFramework\ORM框架之EntityFramework.csproj", "{3D6653E3-2C4C-4411-A99D-2B8769FCB116}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ORM框架之Dapper", "ORM框架之Dapper\ORM框架之Dapper.csproj", "{6888E3A6-0D01-4456-AC38-3A99DF44079E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ORM框架之SqlSugar", "ORM框架之SqlSugar\ORM框架之SqlSugar.csproj", "{530ED532-E7CF-4536-885D-95D07DC6B5EF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -465,6 +469,14 @@ Global
 		{3D6653E3-2C4C-4411-A99D-2B8769FCB116}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3D6653E3-2C4C-4411-A99D-2B8769FCB116}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3D6653E3-2C4C-4411-A99D-2B8769FCB116}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6888E3A6-0D01-4456-AC38-3A99DF44079E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6888E3A6-0D01-4456-AC38-3A99DF44079E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6888E3A6-0D01-4456-AC38-3A99DF44079E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6888E3A6-0D01-4456-AC38-3A99DF44079E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{530ED532-E7CF-4536-885D-95D07DC6B5EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{530ED532-E7CF-4536-885D-95D07DC6B5EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{530ED532-E7CF-4536-885D-95D07DC6B5EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{530ED532-E7CF-4536-885D-95D07DC6B5EF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
