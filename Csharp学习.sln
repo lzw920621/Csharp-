@@ -163,6 +163,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "参数数组params", "参�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "弱引用", "弱引用\弱引用.csproj", "{5D250405-DBBD-4694-BE71-78F2A989CE03}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "winform的treeview控件", "winform的treeview控件\winform的treeview控件.csproj", "{CCB25944-06C7-465C-B516-D3240FB633C5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -489,6 +491,10 @@ Global
 		{5D250405-DBBD-4694-BE71-78F2A989CE03}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5D250405-DBBD-4694-BE71-78F2A989CE03}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5D250405-DBBD-4694-BE71-78F2A989CE03}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CCB25944-06C7-465C-B516-D3240FB633C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCB25944-06C7-465C-B516-D3240FB633C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCB25944-06C7-465C-B516-D3240FB633C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCB25944-06C7-465C-B516-D3240FB633C5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
