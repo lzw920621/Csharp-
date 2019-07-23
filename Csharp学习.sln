@@ -159,6 +159,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ORM框架之Dapper", "ORM�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ORM框架之SqlSugar", "ORM框架之SqlSugar\ORM框架之SqlSugar.csproj", "{530ED532-E7CF-4536-885D-95D07DC6B5EF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "参数数组params", "参数数组params\参数数组params.csproj", "{2B049770-94A5-4444-9C6A-868CA0346E2A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -477,6 +479,10 @@ Global
 		{530ED532-E7CF-4536-885D-95D07DC6B5EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{530ED532-E7CF-4536-885D-95D07DC6B5EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{530ED532-E7CF-4536-885D-95D07DC6B5EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B049770-94A5-4444-9C6A-868CA0346E2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B049770-94A5-4444-9C6A-868CA0346E2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B049770-94A5-4444-9C6A-868CA0346E2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B049770-94A5-4444-9C6A-868CA0346E2A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
