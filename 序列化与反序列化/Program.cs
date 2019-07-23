@@ -5,9 +5,13 @@ using System.Linq;
 using System.Runtime.Serialization.Formatters.Binary;
 using System.Text;
 using System.Threading.Tasks;
+using System.Xml.Serialization;//xml序列化所需的命名空间
+using System.Web.Script.Serialization;
 
 namespace 序列化与反序列化
 {
+    //序列化只会序列化对象的字段属性等数据信息
+
     class Program
     {
         static void Main(string[] args)
@@ -21,7 +25,7 @@ namespace 序列化与反序列化
             //p.Name = "张三";
             //p.Gender = '男';
             //p.Age = 19;
-            //using (FileStream fswrite = new FileStream(@"C:\Users\Administrator\Desktop\new.txt", FileMode.OpenOrCreate, FileAccess.Write))
+            //using (FileStream fswrite = new FileStream(@"二进制序列化后的文件.txt", FileMode.OpenOrCreate, FileAccess.Write))
             //{
             //    BinaryFormatter bf = new BinaryFormatter();
             //    bf.Serialize(fswrite, p);
@@ -29,15 +33,29 @@ namespace 序列化与反序列化
             //}
 
             //接受对方发送过来的二进制，反序列化成对象
-            Person p;
-            using (FileStream fsread = new FileStream(@"C:\Users\Administrator\Desktop\new.txt", FileMode.OpenOrCreate, FileAccess.Read))
+            //Person p;
+            //using (FileStream fsread = new FileStream(@"二进制序列化后的文件.txt", FileMode.OpenOrCreate, FileAccess.Read))
+            //{
+            //    BinaryFormatter bf = new BinaryFormatter();
+            //    p = (Person)bf.Deserialize(fsread);
+            //}
+            //Console.WriteLine(p.Name);
+            //Console.WriteLine(p.Age);
+            //Console.WriteLine(p.Gender);
+
+            //xml序列化
+            using (FileStream fs = new FileStream(@"xml序列化后的文件.xml", FileMode.OpenOrCreate))
             {
-                BinaryFormatter bf = new BinaryFormatter();
-                p = (Person)bf.Deserialize(fsread);
+                XmlSerializer xs = new XmlSerializer(typeof(Person));
+                xs.Serialize(fs,new Person() { Name = "张三", Gender = '男', Age = 12 });
             }
-            Console.WriteLine(p.Name);
-            Console.WriteLine(p.Age);
-            Console.WriteLine(p.Gender);
+
+            //json序列化
+            JavaScriptSerializer jss = new JavaScriptSerializer();
+            string jssStr=jss.Serialize(new Person() { Name = "张三", Gender = '男', Age = 12 });
+
+
+
             Console.ReadKey();
         }
     }
