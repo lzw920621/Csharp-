@@ -161,6 +161,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ORM框架之SqlSugar", "ORM
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "参数数组params", "参数数组params\参数数组params.csproj", "{2B049770-94A5-4444-9C6A-868CA0346E2A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "弱引用", "弱引用\弱引用.csproj", "{5D250405-DBBD-4694-BE71-78F2A989CE03}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -483,6 +485,10 @@ Global
 		{2B049770-94A5-4444-9C6A-868CA0346E2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2B049770-94A5-4444-9C6A-868CA0346E2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2B049770-94A5-4444-9C6A-868CA0346E2A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D250405-DBBD-4694-BE71-78F2A989CE03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D250405-DBBD-4694-BE71-78F2A989CE03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D250405-DBBD-4694-BE71-78F2A989CE03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D250405-DBBD-4694-BE71-78F2A989CE03}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
