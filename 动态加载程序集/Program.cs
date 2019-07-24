@@ -19,10 +19,12 @@ namespace 动态加载程序集
             string path = Environment.CurrentDirectory+@"\MyClassLibrary.dll";
             Assembly assembly = Assembly.LoadFile(path);
 
+            Type[] types1 = assembly.GetExportedTypes();//获取公有类型
+
             Type[] types = assembly.GetTypes();//获取程序集中所有的类型
 
             Type type = assembly.GetType("MyClassLibrary.ClassGreenerycn");//根据类型名称获取相应的类型;
-            var instance = Activator.CreateInstance(type);//创建改类型的实例
+            var instance = Activator.CreateInstance(type);//创建改类型的实例(用无参构造函数创建实例)
             type.GetProperty("Name").SetValue(instance, "http://greenerycn.cnblogs.com", null);
             type.GetProperty("IsTest").SetValue(instance, true, null);
 

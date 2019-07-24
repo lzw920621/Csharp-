@@ -33,6 +33,17 @@ namespace 反射
         {
 
         }
+
+        public person()
+        {
+
+        }
+         
+        public person(int age,string name )
+        {
+            this.age = age;
+            this.name = name;
+        }
     }
 
 
@@ -44,6 +55,11 @@ namespace 反射
             //Type type = typeof(person);
             //Type type1 = typeof(person);
             Type type1 = p.GetType();
+            person p1 = Activator.CreateInstance(type1) as person;//创建改类型的实例(用无参构造函数创建实例)
+
+            ConstructorInfo constructor = type1.GetConstructor(new Type[] { typeof(int), typeof(string) });//获取参数为(int,string)的构造函数
+            person obj=constructor.Invoke(new object[] { 15, "张三" }) as person;//调用构造函数创建实例
+
             MethodInfo[] methods = type1.GetMethods();
 
             MethodInfo methodA = type1.GetMethod("MethodA", new Type[2] { typeof(string), typeof(int) });//获取名称为MethodA,参数为string,int的方法;
