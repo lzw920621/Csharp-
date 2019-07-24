@@ -169,6 +169,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "序列化的一个简单应
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "序列化保存配置文件", "序列化保存配置文件\序列化保存配置文件.csproj", "{9560BB21-616C-4A59-89BB-45C8C70D508D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "文件加密和解密", "文件加密和解密\文件加密和解密.csproj", "{C8213A11-72A8-41C5-A561-6640846B81A8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "文件锁的实现", "文件锁的实现\文件锁的实现.csproj", "{E4AB6AD7-DDB6-423B-9200-8E797F9E5025}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -507,6 +511,14 @@ Global
 		{9560BB21-616C-4A59-89BB-45C8C70D508D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9560BB21-616C-4A59-89BB-45C8C70D508D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9560BB21-616C-4A59-89BB-45C8C70D508D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8213A11-72A8-41C5-A561-6640846B81A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8213A11-72A8-41C5-A561-6640846B81A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8213A11-72A8-41C5-A561-6640846B81A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8213A11-72A8-41C5-A561-6640846B81A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4AB6AD7-DDB6-423B-9200-8E797F9E5025}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4AB6AD7-DDB6-423B-9200-8E797F9E5025}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4AB6AD7-DDB6-423B-9200-8E797F9E5025}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4AB6AD7-DDB6-423B-9200-8E797F9E5025}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
