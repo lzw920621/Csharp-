@@ -12,13 +12,14 @@ namespace 将数组转为二叉树
         {
             int[] array = Enumerable.Range(0, 20).ToArray();
 
-            TreeNode tree = ArrayToBinaryTree_2(array);
+            TreeNode tree = ArrayToBinaryTree(array,0,array.Length-1);
+            Console.WriteLine("------------------先序遍历-------------------");
             PreOrder(tree);
-            Console.WriteLine("-------------------------------------");
+            Console.WriteLine("-------------------中序遍历------------------");
             InOrder(tree);
-            Console.WriteLine("--------------------------------------");
+            Console.WriteLine("--------------------后序遍历------------------");
             PostOrder(tree);
-            Console.WriteLine("--------------------------------------");
+            Console.WriteLine("--------------------层序遍历------------------");
             LevelOrder(tree);
             Console.WriteLine("--------------------------------------");
             Console.Write("Height : "+GetTreeHeight(tree));
@@ -35,7 +36,7 @@ namespace 将数组转为二叉树
             return treeNode;
         }
 
-        public static TreeNode ArrayToBinaryTree_2(int[] array)
+        public static TreeNode ArrayToBinaryTree_2(int[] array)//按层序的方式
         {
             if (array == null || array.Length < 1) return null;
             
@@ -76,19 +77,19 @@ namespace 将数组转为二叉树
         public static void PostOrder(TreeNode treeNode)//后序遍历
         {
             if (treeNode == null) return;
-            
-            PreOrder(treeNode.left);
-            PreOrder(treeNode.right);
+
+            PostOrder(treeNode.left);
+            PostOrder(treeNode.right);
             Console.WriteLine(treeNode.val);
         }
 
         public static void InOrder(TreeNode treeNode)//中序遍历
         {
             if (treeNode == null) return;
-            
-            PreOrder(treeNode.left);
+
+            InOrder(treeNode.left);
             Console.WriteLine(treeNode.val);
-            PreOrder(treeNode.right);
+            InOrder(treeNode.right);
         }
 
         public static void LevelOrder(TreeNode treeNode)//层序遍历
