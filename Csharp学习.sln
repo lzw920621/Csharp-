@@ -201,6 +201,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "winform多文档窗体", "w
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSV文件读写helper", "CSV文件读写helper\CSV文件读写helper.csproj", "{DC5D03FC-77BA-498E-B7A5-8C16BCDABA09}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FTP操作辅助类", "FTP操作辅助类\FTP操作辅助类.csproj", "{A691DB0C-C5D1-4E9E-8236-0CB17DBEBF94}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -599,6 +601,10 @@ Global
 		{DC5D03FC-77BA-498E-B7A5-8C16BCDABA09}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DC5D03FC-77BA-498E-B7A5-8C16BCDABA09}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DC5D03FC-77BA-498E-B7A5-8C16BCDABA09}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A691DB0C-C5D1-4E9E-8236-0CB17DBEBF94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A691DB0C-C5D1-4E9E-8236-0CB17DBEBF94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A691DB0C-C5D1-4E9E-8236-0CB17DBEBF94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A691DB0C-C5D1-4E9E-8236-0CB17DBEBF94}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
