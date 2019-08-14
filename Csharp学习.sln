@@ -197,6 +197,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interlocked类为多线程�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FieldOffset特性实现共用体", "FieldOffset特性实现共用体\FieldOffset特性实现共用体.csproj", "{7C49158F-3E08-4AEB-8B1E-7258465B73DB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "winform多文档窗体", "winform多文档窗体\winform多文档窗体.csproj", "{25FBAC13-09DC-40DE-B289-95D31C5EB369}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSV文件读写helper", "CSV文件读写helper\CSV文件读写helper.csproj", "{DC5D03FC-77BA-498E-B7A5-8C16BCDABA09}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -587,6 +591,14 @@ Global
 		{7C49158F-3E08-4AEB-8B1E-7258465B73DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7C49158F-3E08-4AEB-8B1E-7258465B73DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7C49158F-3E08-4AEB-8B1E-7258465B73DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{25FBAC13-09DC-40DE-B289-95D31C5EB369}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25FBAC13-09DC-40DE-B289-95D31C5EB369}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25FBAC13-09DC-40DE-B289-95D31C5EB369}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25FBAC13-09DC-40DE-B289-95D31C5EB369}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC5D03FC-77BA-498E-B7A5-8C16BCDABA09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC5D03FC-77BA-498E-B7A5-8C16BCDABA09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC5D03FC-77BA-498E-B7A5-8C16BCDABA09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC5D03FC-77BA-498E-B7A5-8C16BCDABA09}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

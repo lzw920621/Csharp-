@@ -35,6 +35,10 @@ namespace 数组的协变
             Animal animal = new Animal();
             animal = new Dog();
             string name1 = animal.GetType().Name;
+
+
+
+            Animal[] animals2 = new Dog[10];//
         }
     }
 }
