@@ -209,6 +209,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "winform错误提示控件er
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "winform窗体单例", "winform窗体单例\winform窗体单例.csproj", "{C77A713C-FF06-417B-B8C1-FC28C93545FD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "winform实现简单的窗体侧边栏", "winform实现简单的窗体侧边栏\winform实现简单的窗体侧边栏.csproj", "{777A54F1-7EAD-4241-AD71-422845C44EF4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -623,6 +625,10 @@ Global
 		{C77A713C-FF06-417B-B8C1-FC28C93545FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C77A713C-FF06-417B-B8C1-FC28C93545FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C77A713C-FF06-417B-B8C1-FC28C93545FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{777A54F1-7EAD-4241-AD71-422845C44EF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{777A54F1-7EAD-4241-AD71-422845C44EF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{777A54F1-7EAD-4241-AD71-422845C44EF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{777A54F1-7EAD-4241-AD71-422845C44EF4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
