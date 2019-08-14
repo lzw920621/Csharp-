@@ -45,6 +45,24 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ChildForm1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChildForm1.Designer.cs">
+      <DependentUpon>ChildForm1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ChildForm2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChildForm2.Designer.cs">
+      <DependentUpon>ChildForm2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ChildForm3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChildForm3.Designer.cs">
+      <DependentUpon>ChildForm3.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -53,6 +71,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="ChildForm1.resx">
+      <DependentUpon>ChildForm1.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
