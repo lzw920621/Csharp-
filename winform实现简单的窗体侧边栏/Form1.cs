@@ -30,7 +30,7 @@ namespace winform实现简单的窗体侧边栏
             {
                 btn_HideAndShow.Text = ">";
                 panel1.Hide();
-            }
+            }            
         }
     }
 }
