@@ -6,6 +6,8 @@ using System.Threading.Tasks;
 
 namespace 泛型的协变和逆变
 {
+    //注意: 协变和逆变 只适用于 接口和委托
+
     class Animal
     {
         public int numOfLegs = 4;
@@ -19,10 +21,10 @@ namespace 泛型的协变和逆变
     }
     delegate T Factory<T>();
 
-    delegate T NewFactory<out T>();//使用out关键字实现协变  类型参数只作为输出值(不作为方法的参数输入,只作为返回值)
+    delegate T NewFactory<out T>();//使用out关键字实现协变  类型参数只作为输出值(不能作为方法的参数输入,只作为返回值)
 
 
-    delegate void Action1<in T>(T a);//使用in关键字实现逆变  类型参数只作为输入值(只作为方法的参数输入)
+    delegate void Action1<in T>(T a);//使用in关键字实现逆变  类型参数只作为输入值(只作为方法的参数输入,不能作为返回值)
 
     class Program
     {

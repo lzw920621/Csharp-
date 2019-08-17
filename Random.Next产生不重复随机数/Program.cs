@@ -19,9 +19,7 @@ namespace Random_Next产生不重复随机数
             }
 
             Console.ReadKey();
-
-
-            //使用guid作为随机数种子，适用于高频次调用一个生成方法或过程
+        
             for (int i = 0; i < 20; i++)
             {
                 Console.WriteLine(GetRandom());
@@ -30,6 +28,7 @@ namespace Random_Next产生不重复随机数
 
         public static int GetRandom()
         {
+            //使用guid作为随机数种子，适用于高频次调用一个生成方法或过程
             Random rd = new Random(Guid.NewGuid().GetHashCode());
             return rd.Next();
         }

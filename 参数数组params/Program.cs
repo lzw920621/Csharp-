@@ -21,7 +21,7 @@ namespace 参数数组params
             Console.ReadKey();
         }
 
-        public static void UseParams(params int[] list)
+        public static void UseParams(params int[] list)//注意:被params修饰的参数只能作为方法的最后一个参数
         {
             for (int i = 0; i < list.Length; i++)
             {
