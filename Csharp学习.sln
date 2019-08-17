@@ -223,6 +223,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "结构体使用属性时遇
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "$字符串内插", "$字符串内插\$字符串内插.csproj", "{1DAAC46F-2E5C-449F-8456-F6787BC8D827}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "获取字符串所占的字节数", "获取字符串所占的字节数\获取字符串所占的字节数.csproj", "{830221BD-6607-4E69-9644-4DE848811EA4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -665,6 +667,10 @@ Global
 		{1DAAC46F-2E5C-449F-8456-F6787BC8D827}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1DAAC46F-2E5C-449F-8456-F6787BC8D827}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1DAAC46F-2E5C-449F-8456-F6787BC8D827}.Release|Any CPU.Build.0 = Release|Any CPU
+		{830221BD-6607-4E69-9644-4DE848811EA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{830221BD-6607-4E69-9644-4DE848811EA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{830221BD-6607-4E69-9644-4DE848811EA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{830221BD-6607-4E69-9644-4DE848811EA4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

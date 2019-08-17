@@ -26,8 +26,7 @@ namespace _字符串内插
             // String interpolation:
             Console.WriteLine($"Hello, {name}! Today is {date.DayOfWeek}, it's {date:HH:mm} now.");
             // Both calls produce the same output that is similar to:
-            // Hello, Mark! Today is Wednesday, it's 19:40 now.
-
+            // Hello, Mark! Today is Wednesday, it's 19:40 now.            
         }
     }
 }
