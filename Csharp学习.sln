@@ -213,6 +213,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "winform实现简单的窗�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "多播委托因异常而终止的解决方案", "多播委托因异常而终止的解决方案\多播委托因异常而终止的解决方案.csproj", "{E0A1F3F4-A9C0-400C-A221-822072301562}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "关于闭包", "关于闭包\关于闭包.csproj", "{204EC53C-BCEF-4B33-91ED-45DFA6EC2359}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -635,6 +637,10 @@ Global
 		{E0A1F3F4-A9C0-400C-A221-822072301562}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E0A1F3F4-A9C0-400C-A221-822072301562}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E0A1F3F4-A9C0-400C-A221-822072301562}.Release|Any CPU.Build.0 = Release|Any CPU
+		{204EC53C-BCEF-4B33-91ED-45DFA6EC2359}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{204EC53C-BCEF-4B33-91ED-45DFA6EC2359}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{204EC53C-BCEF-4B33-91ED-45DFA6EC2359}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{204EC53C-BCEF-4B33-91ED-45DFA6EC2359}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
