@@ -12,7 +12,7 @@ namespace 获取字符串所占的字节数
         {
             string str = "123一二三";
             int length = str.Length;//字符个数
-            int length2 = System.Text.Encoding.Default.GetByteCount(str);//字节个数 中文字符占两个字节
-        }
+            int length2 = System.Text.Encoding.Default.GetByteCount(str);//字节个数 中文字符占两个字节            
+        }        
     }
 }
