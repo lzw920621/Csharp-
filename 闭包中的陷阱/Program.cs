@@ -34,6 +34,28 @@ namespace 闭包中的陷阱
                 });
             }
             Console.ReadKey();
+            Console.WriteLine("----------------------");
+            //情形3
+            List<Action> list = new List<Action>();
+            for (int i = 0; i < 5; i++)
+            {
+                int count = i * 10;
+                list.Add(() =>
+                {
+                    Console.WriteLine(count);
+                    count++; }
+                );
+            }
+            foreach (var action in list)
+            {
+                action();
+            }
+            list[0]();
+            list[0]();
+            list[0]();
+            list[1]();
+
+            Console.ReadKey();
         }
     }
 }
