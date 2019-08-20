@@ -225,6 +225,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "$字符串内插", "$字符
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "获取字符串所占的字节数", "获取字符串所占的字节数\获取字符串所占的字节数.csproj", "{830221BD-6607-4E69-9644-4DE848811EA4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "表达式树", "表达式树\表达式树.csproj", "{B207CA85-410C-4AE4-82DC-0086663DDB02}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -671,6 +673,10 @@ Global
 		{830221BD-6607-4E69-9644-4DE848811EA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{830221BD-6607-4E69-9644-4DE848811EA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{830221BD-6607-4E69-9644-4DE848811EA4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B207CA85-410C-4AE4-82DC-0086663DDB02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B207CA85-410C-4AE4-82DC-0086663DDB02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B207CA85-410C-4AE4-82DC-0086663DDB02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B207CA85-410C-4AE4-82DC-0086663DDB02}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
