@@ -227,6 +227,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "获取字符串所占的字
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "表达式树", "表达式树\表达式树.csproj", "{B207CA85-410C-4AE4-82DC-0086663DDB02}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Textbox数据绑定", "Textbox数据绑定\Textbox数据绑定.csproj", "{0CAF6002-4AF3-4BFA-BCB8-967445865E24}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataGridView数据绑定", "DataGridView数据绑定\DataGridView数据绑定.csproj", "{7103A17B-A80A-45C3-9C7C-9D81AC5C6CBC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -677,6 +681,14 @@ Global
 		{B207CA85-410C-4AE4-82DC-0086663DDB02}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B207CA85-410C-4AE4-82DC-0086663DDB02}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B207CA85-410C-4AE4-82DC-0086663DDB02}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0CAF6002-4AF3-4BFA-BCB8-967445865E24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CAF6002-4AF3-4BFA-BCB8-967445865E24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CAF6002-4AF3-4BFA-BCB8-967445865E24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CAF6002-4AF3-4BFA-BCB8-967445865E24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7103A17B-A80A-45C3-9C7C-9D81AC5C6CBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7103A17B-A80A-45C3-9C7C-9D81AC5C6CBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7103A17B-A80A-45C3-9C7C-9D81AC5C6CBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7103A17B-A80A-45C3-9C7C-9D81AC5C6CBC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
