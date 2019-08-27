@@ -56,7 +56,6 @@ namespace Task实现多线程
             Console.WriteLine("this task id (0)", Task.CurrentId);
             Console.WriteLine("do something to clean up");
             Thread.Sleep(3000);
-
         }
     }
 }

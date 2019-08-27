@@ -233,6 +233,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataGridView数据绑定", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "winform窗体自适应", "winform窗体自适应\winform窗体自适应.csproj", "{D4AA1E15-4C5F-4B8E-B72A-5787439FD1F0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "winform程序禁止多开", "winform程序禁止多开\winform程序禁止多开.csproj", "{383E018B-2F2D-4C5E-A117-E51E7BF0F203}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -695,6 +697,10 @@ Global
 		{D4AA1E15-4C5F-4B8E-B72A-5787439FD1F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D4AA1E15-4C5F-4B8E-B72A-5787439FD1F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D4AA1E15-4C5F-4B8E-B72A-5787439FD1F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{383E018B-2F2D-4C5E-A117-E51E7BF0F203}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{383E018B-2F2D-4C5E-A117-E51E7BF0F203}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{383E018B-2F2D-4C5E-A117-E51E7BF0F203}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{383E018B-2F2D-4C5E-A117-E51E7BF0F203}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

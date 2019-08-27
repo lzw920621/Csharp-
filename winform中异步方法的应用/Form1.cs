@@ -20,15 +20,20 @@ namespace winform中异步方法的应用
 
         private async void btn_Change_Txtbox_Click(object sender, EventArgs e)
         {
-            richTextBox1.Text = "异步方法内部,await之前  当前线程id : " + Thread.CurrentThread.ManagedThreadId + "当前时间 : " + DateTime.Now;
+            richTextBox1.Text = DateTime.Now + " : " + "异步方法内部,await之前  当前线程id : " + Thread.CurrentThread.ManagedThreadId;
             await Task.Run(() =>
             {
-                //richTextBox1.Text += "进入 await 内部  当前线程id : " + Thread.CurrentThread.ManagedThreadId + "当前时间 : " + DateTime.Now;
-                Thread.Sleep(3000);
-               
-                //richTextBox1.Text += "进入 await 内部  当前线程id : " + Thread.CurrentThread.ManagedThreadId + "当前时间 : " + DateTime.Now;
+                this.BeginInvoke(new Action(() => { richTextBox1.Text += "\r\n"+ DateTime.Now + " : " + "正在执行耗时操作"; }));
+                Thread.Sleep(5000);
+                this.BeginInvoke(new Action(() => { richTextBox1.Text += "\r\n" + DateTime.Now + " : " + "耗时操作结束"; }));
+
             });
-            richTextBox1.Text += "\r\nawait 之后  当前线程id : " + Thread.CurrentThread.ManagedThreadId + "当前时间 : " + DateTime.Now;
+            richTextBox1.Text += "\r\n" + DateTime.Now + " : " + "await 之后  当前线程id : " + Thread.CurrentThread.ManagedThreadId;
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

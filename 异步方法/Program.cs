@@ -11,35 +11,28 @@ namespace 异步方法
     {
         static void Main(string[] args)
         {
-            //Console.Beep(1000, 1000);
-            Console.WriteLine("调用异步方法前 主线程ID:" + Thread.CurrentThread.ManagedThreadId + " 时间：" + DateTime.Now);
+            Console.WriteLine(DateTime.Now + " : " + "主线程 调用异步方法前 线程ID:" + Thread.CurrentThread.ManagedThreadId );
 
-            DoSomething("第一次");
+            DoSomething();
 
-            //DoSomething("第二次");
-
-            //DoSomething2("第三次");
-
-            Console.WriteLine("调用异步方法后 主线程ID:" + Thread.CurrentThread.ManagedThreadId + " 时间：" + DateTime.Now);
+            Console.WriteLine(DateTime.Now + " : " + "主线程 调用异步方法后 线程ID:" + Thread.CurrentThread.ManagedThreadId);
 
             Console.ReadKey();
         }
 
-        static async void DoSomething(string str)
+        static async void DoSomething()
         {
-            Console.WriteLine(str + "Do方法内部await前 线程ID:" + Thread.CurrentThread.ManagedThreadId + " 时间：" + DateTime.Now);
+            Console.WriteLine(DateTime.Now + " : " + "异步方法内部 await前 线程ID:" + Thread.CurrentThread.ManagedThreadId);
 
             await Task.Run(() =>
             {
-                Console.WriteLine(str + "Do方法内部await内部 开始执行耗时操作 线程ID:" + Thread.CurrentThread.ManagedThreadId + " 时间：" + DateTime.Now);
+                Console.WriteLine(DateTime.Now + " : " + "异步方法内部 await内部 开始执行耗时操作 线程ID:" + Thread.CurrentThread.ManagedThreadId);
                 Thread.Sleep(3000);
-                Console.WriteLine(str + "Do方法内部await内部 耗时操作执行完毕 线程ID:" + Thread.CurrentThread.ManagedThreadId + " 时间：" + DateTime.Now);
+                Console.WriteLine(DateTime.Now + " : " + "异步方法内部 await内部 耗时操作执行完毕 线程ID:" + Thread.CurrentThread.ManagedThreadId);
             }
             );
-
-
-
-            Console.WriteLine(str + "Do方法内部await后 线程ID:" + Thread.CurrentThread.ManagedThreadId + " 时间：" + DateTime.Now);
+            
+            Console.WriteLine(DateTime.Now + " : " + "异步方法内部 await后 线程ID:" + Thread.CurrentThread.ManagedThreadId);
 
         }
 
@@ -49,7 +42,7 @@ namespace 异步方法
         {
             Console.WriteLine("同步方法中调用异步方法前 线程ID:" + Thread.CurrentThread.ManagedThreadId + " 时间：" + DateTime.Now);
 
-            DoSomething(str);
+            DoSomething();
 
             Console.WriteLine("同步方法中调用异步方法后 线程ID:" + Thread.CurrentThread.ManagedThreadId + " 时间：" + DateTime.Now);
         }
