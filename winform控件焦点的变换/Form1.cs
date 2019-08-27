@@ -38,5 +38,17 @@ namespace winform控件焦点的变换
                 }
             }
         }
+
+        private void textBox_Enter(object sender, EventArgs e)
+        {
+            TextBox textBox = sender as TextBox;
+            textBox.BackColor = Color.Beige;
+        }
+
+        private void textBox_Leave(object sender, EventArgs e)
+        {
+            TextBox textBox = sender as TextBox;
+            textBox.BackColor = SystemColors.Window;
+        }
     }
 }

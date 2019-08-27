@@ -237,6 +237,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "winform程序禁止多开",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "winform控件焦点的变换", "winform控件焦点的变换\winform控件焦点的变换.csproj", "{AE31FBA9-9202-48A9-8860-A21FA1370AA6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "winform_MaskedTextBox控件实现输入验证", "winform_MaskedTextBox控件实现输入验证\winform_MaskedTextBox控件实现输入验证.csproj", "{0E2CB18C-F168-41BD-8143-1C1464CCCAD0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -707,6 +709,10 @@ Global
 		{AE31FBA9-9202-48A9-8860-A21FA1370AA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AE31FBA9-9202-48A9-8860-A21FA1370AA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AE31FBA9-9202-48A9-8860-A21FA1370AA6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E2CB18C-F168-41BD-8143-1C1464CCCAD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E2CB18C-F168-41BD-8143-1C1464CCCAD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E2CB18C-F168-41BD-8143-1C1464CCCAD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E2CB18C-F168-41BD-8143-1C1464CCCAD0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

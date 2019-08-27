@@ -41,7 +41,9 @@
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(245, 25);
             this.textBox1.TabIndex = 0;
+            this.textBox1.Enter += new System.EventHandler(this.textBox_Enter);
             this.textBox1.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBox_KeyDown);
+            this.textBox1.Leave += new System.EventHandler(this.textBox_Leave);
             // 
             // textBox2
             // 
@@ -49,7 +51,9 @@
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(245, 25);
             this.textBox2.TabIndex = 1;
+            this.textBox2.Enter += new System.EventHandler(this.textBox_Enter);
             this.textBox2.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBox_KeyDown);
+            this.textBox2.Leave += new System.EventHandler(this.textBox_Leave);
             // 
             // textBox3
             // 
@@ -57,7 +61,9 @@
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(245, 25);
             this.textBox3.TabIndex = 2;
+            this.textBox3.Enter += new System.EventHandler(this.textBox_Enter);
             this.textBox3.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBox_KeyDown);
+            this.textBox3.Leave += new System.EventHandler(this.textBox_Leave);
             // 
             // textBox4
             // 
@@ -65,7 +71,9 @@
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(245, 25);
             this.textBox4.TabIndex = 3;
+            this.textBox4.Enter += new System.EventHandler(this.textBox_Enter);
             this.textBox4.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBox_KeyDown);
+            this.textBox4.Leave += new System.EventHandler(this.textBox_Leave);
             // 
             // textBox5
             // 
@@ -73,7 +81,9 @@
             this.textBox5.Name = "textBox5";
             this.textBox5.Size = new System.Drawing.Size(245, 25);
             this.textBox5.TabIndex = 4;
+            this.textBox5.Enter += new System.EventHandler(this.textBox_Enter);
             this.textBox5.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBox_KeyDown);
+            this.textBox5.Leave += new System.EventHandler(this.textBox_Leave);
             // 
             // Form1
             // 
