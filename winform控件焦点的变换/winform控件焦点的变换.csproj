@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{383E018B-2F2D-4C5E-A117-E51E7BF0F203}</ProjectGuid>
+    <ProjectGuid>{AE31FBA9-9202-48A9-8860-A21FA1370AA6}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>winform程序禁止多开</RootNamespace>
-    <AssemblyName>winform程序禁止多开</AssemblyName>
+    <RootNamespace>winform控件焦点的变换</RootNamespace>
+    <AssemblyName>winform控件焦点的变换</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>

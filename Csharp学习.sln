@@ -235,6 +235,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "winform窗体自适应", "w
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "winform程序禁止多开", "winform程序禁止多开\winform程序禁止多开.csproj", "{383E018B-2F2D-4C5E-A117-E51E7BF0F203}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "winform控件焦点的变换", "winform控件焦点的变换\winform控件焦点的变换.csproj", "{AE31FBA9-9202-48A9-8860-A21FA1370AA6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -701,6 +703,10 @@ Global
 		{383E018B-2F2D-4C5E-A117-E51E7BF0F203}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{383E018B-2F2D-4C5E-A117-E51E7BF0F203}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{383E018B-2F2D-4C5E-A117-E51E7BF0F203}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE31FBA9-9202-48A9-8860-A21FA1370AA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE31FBA9-9202-48A9-8860-A21FA1370AA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE31FBA9-9202-48A9-8860-A21FA1370AA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE31FBA9-9202-48A9-8860-A21FA1370AA6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
