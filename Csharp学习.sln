@@ -241,6 +241,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "winform_MaskedTextBox控件
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "winform窗体显示在最顶层", "winform窗体显示在最顶层\winform窗体显示在最顶层.csproj", "{8DCF2FD7-59B5-4D4E-AC02-9D520195B82B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "判断文件是否正在被使用", "判断文件是否正在被使用\判断文件是否正在被使用.csproj", "{0139454E-DD15-4C69-84EC-A03CFB33327B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -719,6 +721,10 @@ Global
 		{8DCF2FD7-59B5-4D4E-AC02-9D520195B82B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8DCF2FD7-59B5-4D4E-AC02-9D520195B82B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8DCF2FD7-59B5-4D4E-AC02-9D520195B82B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0139454E-DD15-4C69-84EC-A03CFB33327B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0139454E-DD15-4C69-84EC-A03CFB33327B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0139454E-DD15-4C69-84EC-A03CFB33327B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0139454E-DD15-4C69-84EC-A03CFB33327B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
