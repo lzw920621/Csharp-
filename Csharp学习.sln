@@ -239,6 +239,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "winform控件焦点的变�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "winform_MaskedTextBox控件实现输入验证", "winform_MaskedTextBox控件实现输入验证\winform_MaskedTextBox控件实现输入验证.csproj", "{0E2CB18C-F168-41BD-8143-1C1464CCCAD0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "winform窗体显示在最顶层", "winform窗体显示在最顶层\winform窗体显示在最顶层.csproj", "{8DCF2FD7-59B5-4D4E-AC02-9D520195B82B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -713,6 +715,10 @@ Global
 		{0E2CB18C-F168-41BD-8143-1C1464CCCAD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0E2CB18C-F168-41BD-8143-1C1464CCCAD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0E2CB18C-F168-41BD-8143-1C1464CCCAD0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8DCF2FD7-59B5-4D4E-AC02-9D520195B82B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DCF2FD7-59B5-4D4E-AC02-9D520195B82B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DCF2FD7-59B5-4D4E-AC02-9D520195B82B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DCF2FD7-59B5-4D4E-AC02-9D520195B82B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

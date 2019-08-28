@@ -18,6 +18,12 @@ namespace 异步方法
             Console.WriteLine(DateTime.Now + " : " + "主线程 调用异步方法后 线程ID:" + Thread.CurrentThread.ManagedThreadId);
 
             Console.ReadKey();
+
+            DoSomething2();
+            Console.ReadKey();
+
+            DoSomething3();
+            Console.ReadKey();
         }
 
         static async void DoSomething()
@@ -38,13 +44,34 @@ namespace 异步方法
 
         
 
-        static void DoSomething2(string str)
+        static void DoSomething2()
         {
-            Console.WriteLine("同步方法中调用异步方法前 线程ID:" + Thread.CurrentThread.ManagedThreadId + " 时间：" + DateTime.Now);
+            Console.WriteLine(DateTime.Now + " : " + "同步方法中调用异步方法前 线程ID:" + Thread.CurrentThread.ManagedThreadId);
 
             DoSomething();
 
-            Console.WriteLine("同步方法中调用异步方法后 线程ID:" + Thread.CurrentThread.ManagedThreadId + " 时间：" + DateTime.Now);
+            Console.WriteLine(DateTime.Now + " : " + "同步方法中调用异步方法后 线程ID:" + Thread.CurrentThread.ManagedThreadId);
+        }
+
+        static async void DoSomething3()
+        {
+            Console.WriteLine(DateTime.Now + " : " + "异步方法内部 第一个await之前 线程ID:" + Thread.CurrentThread.ManagedThreadId);
+            await Task.Run(() =>
+            {
+                Console.WriteLine(DateTime.Now + " : " + "异步方法内部 第一个await内部 开始执行 耗时操作 线程ID:" + Thread.CurrentThread.ManagedThreadId);
+                Thread.Sleep(3000);
+                Console.WriteLine(DateTime.Now + " : " + "异步方法内部 第一个await内部 耗时操作 执行完毕 线程ID:" + Thread.CurrentThread.ManagedThreadId);
+            });
+            Console.WriteLine(DateTime.Now + " : " + "异步方法内部 第一个await之后 线程ID:" + Thread.CurrentThread.ManagedThreadId);
+
+            Console.WriteLine(DateTime.Now + " : " + "异步方法内部 第二个await之前 线程ID:" + Thread.CurrentThread.ManagedThreadId);
+            await Task.Run(() =>
+            {
+                Console.WriteLine(DateTime.Now + " : " + "异步方法内部 第二个await内部 开始执行 耗时操作 线程ID:" + Thread.CurrentThread.ManagedThreadId);
+                Thread.Sleep(3000);
+                Console.WriteLine(DateTime.Now + " : " + "异步方法内部 第二个await内部 耗时操作 执行完毕 线程ID:" + Thread.CurrentThread.ManagedThreadId);
+            });
+            Console.WriteLine(DateTime.Now + " : " + "异步方法内部 第二个await之后 线程ID:" + Thread.CurrentThread.ManagedThreadId);
         }
     }
 }
