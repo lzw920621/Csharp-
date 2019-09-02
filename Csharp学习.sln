@@ -249,6 +249,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "图片添加水印", "图�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "判断程序是否是以管理员权限运行", "判断程序是否是以管理员权限运行\判断程序是否是以管理员权限运行.csproj", "{42EA7E4B-D9FD-4E19-8314-18361E3C74C7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "获取电脑连接的所有设备的信息", "获取电脑连接的所有设备的信息\获取电脑连接的所有设备的信息.csproj", "{5F558AD5-E71B-4272-B6CD-A7D62F04C22E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -743,6 +745,10 @@ Global
 		{42EA7E4B-D9FD-4E19-8314-18361E3C74C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{42EA7E4B-D9FD-4E19-8314-18361E3C74C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{42EA7E4B-D9FD-4E19-8314-18361E3C74C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F558AD5-E71B-4272-B6CD-A7D62F04C22E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F558AD5-E71B-4272-B6CD-A7D62F04C22E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F558AD5-E71B-4272-B6CD-A7D62F04C22E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F558AD5-E71B-4272-B6CD-A7D62F04C22E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
