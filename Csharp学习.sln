@@ -253,6 +253,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "获取电脑连接的所有
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "以不同的进制输出数字", "以不同的进制输出数字\以不同的进制输出数字.csproj", "{C8BC06A2-8598-4135-B8A1-8841D61E3A8F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "使用goto跳出多层循环", "使用goto跳出多层循环\使用goto跳出多层循环.csproj", "{F9F7F1D6-0C0F-4A61-9C8C-053E198452A8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -755,6 +757,10 @@ Global
 		{C8BC06A2-8598-4135-B8A1-8841D61E3A8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C8BC06A2-8598-4135-B8A1-8841D61E3A8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C8BC06A2-8598-4135-B8A1-8841D61E3A8F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9F7F1D6-0C0F-4A61-9C8C-053E198452A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9F7F1D6-0C0F-4A61-9C8C-053E198452A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9F7F1D6-0C0F-4A61-9C8C-053E198452A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9F7F1D6-0C0F-4A61-9C8C-053E198452A8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
