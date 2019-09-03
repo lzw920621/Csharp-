@@ -5,7 +5,7 @@ VisualStudioVersion = 15.0.28307.271
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "linqToXml", "linqToXml\linqToXml.csproj", "{7A1320D1-2C18-4D13-8E98-A5ECDCFDE34B}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinqStudy", "LinqStudy\LinqStudy.csproj", "{08B8800F-FC30-4F33-A39B-81D0DE90DF41}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Linq", "LinqStudy\Linq.csproj", "{08B8800F-FC30-4F33-A39B-81D0DE90DF41}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{96ED69B0-A341-4442-96E4-1D9E60A8C914}"
 EndProject

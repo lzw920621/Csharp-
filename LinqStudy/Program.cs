@@ -90,8 +90,6 @@ namespace LinqStudy
             {
                 Console.WriteLine(num);
             }
-
-
         }
     }
 }
