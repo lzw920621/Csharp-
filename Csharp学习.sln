@@ -257,6 +257,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "使用goto跳出多层循�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "在switch块中使用goto", "在switch块中使用goto\在switch块中使用goto.csproj", "{B5F05FBB-664D-42DE-BB89-2446FAF9B1BE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "预处理指令", "预处理指令\预处理指令.csproj", "{F1482EF9-2BC4-426D-AEFA-B1C13B9B568A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -767,6 +769,10 @@ Global
 		{B5F05FBB-664D-42DE-BB89-2446FAF9B1BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B5F05FBB-664D-42DE-BB89-2446FAF9B1BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B5F05FBB-664D-42DE-BB89-2446FAF9B1BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1482EF9-2BC4-426D-AEFA-B1C13B9B568A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1482EF9-2BC4-426D-AEFA-B1C13B9B568A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1482EF9-2BC4-426D-AEFA-B1C13B9B568A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1482EF9-2BC4-426D-AEFA-B1C13B9B568A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
