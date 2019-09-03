@@ -259,6 +259,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "在switch块中使用goto",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "预处理指令", "预处理指令\预处理指令.csproj", "{F1482EF9-2BC4-426D-AEFA-B1C13B9B568A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "重载方法的优先级", "重载方法的优先级\重载方法的优先级.csproj", "{046815E5-7635-4E83-93D1-170E4774AFB2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -773,6 +775,10 @@ Global
 		{F1482EF9-2BC4-426D-AEFA-B1C13B9B568A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F1482EF9-2BC4-426D-AEFA-B1C13B9B568A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F1482EF9-2BC4-426D-AEFA-B1C13B9B568A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{046815E5-7635-4E83-93D1-170E4774AFB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{046815E5-7635-4E83-93D1-170E4774AFB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{046815E5-7635-4E83-93D1-170E4774AFB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{046815E5-7635-4E83-93D1-170E4774AFB2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
