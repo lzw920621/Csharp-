@@ -11,7 +11,7 @@ namespace 匿名类型
         static void Main(string[] args)
         {
             var student = new { name = "张三", age = 15, gender = "男", birthday = 2004 };
-            //student.name = "李四";//错误 匿名类型的属性是只读的
+            //student.name = "李四";//错误 匿名类型的属性是只读的,不能修改
 
 
             //匿名类型的对象初始化语句有三种形式
