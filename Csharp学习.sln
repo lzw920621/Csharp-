@@ -265,6 +265,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "枚举类型的遍历", "�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "winform应用程序未处理异常的统一处理技巧", "winform应用程序未处理异常的统一处理技巧\winform应用程序未处理异常的统一处理技巧.csproj", "{1BA9003B-74D0-48AF-A3B7-8D640D10C783}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Parallel并行任务", "Parallel并行任务\Parallel并行任务.csproj", "{E5D0225F-81E6-4FFE-AD5F-5BC866EB4D3A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -791,6 +793,10 @@ Global
 		{1BA9003B-74D0-48AF-A3B7-8D640D10C783}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1BA9003B-74D0-48AF-A3B7-8D640D10C783}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1BA9003B-74D0-48AF-A3B7-8D640D10C783}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5D0225F-81E6-4FFE-AD5F-5BC866EB4D3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5D0225F-81E6-4FFE-AD5F-5BC866EB4D3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5D0225F-81E6-4FFE-AD5F-5BC866EB4D3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5D0225F-81E6-4FFE-AD5F-5BC866EB4D3A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

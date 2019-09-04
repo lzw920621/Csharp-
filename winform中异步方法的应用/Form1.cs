@@ -23,12 +23,14 @@ namespace winform中异步方法的应用
             richTextBox1.Text = DateTime.Now + " : " + "异步方法内部,await之前  当前线程id : " + Thread.CurrentThread.ManagedThreadId;
             await Task.Run(() =>
             {
-                this.BeginInvoke(new Action(() => { richTextBox1.Text += "\r\n"+ DateTime.Now + " : " + "正在执行耗时操作"; }));
+                int id= Thread.CurrentThread.ManagedThreadId;
+                this.BeginInvoke(new Action(() => { richTextBox1.Text += "\r\n"+ DateTime.Now + " : " + "正在执行耗时操作 当前线程ID:" + id; }));
                 Thread.Sleep(5000);
-                this.BeginInvoke(new Action(() => { richTextBox1.Text += "\r\n" + DateTime.Now + " : " + "耗时操作结束"; }));
+                id = Thread.CurrentThread.ManagedThreadId;
+                this.BeginInvoke(new Action(() => { richTextBox1.Text += "\r\n" + DateTime.Now + " : " + "耗时操作结束 当前线程ID:" + id; }));
 
             });
-            richTextBox1.Text += "\r\n" + DateTime.Now + " : " + "await 之后  当前线程id : " + Thread.CurrentThread.ManagedThreadId;
+            richTextBox1.Text += "\r\n" + DateTime.Now + " : " + "异步方法内部,await 之后  当前线程id : " + Thread.CurrentThread.ManagedThreadId;
         }
 
         private void Form1_Load(object sender, EventArgs e)
