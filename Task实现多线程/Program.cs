@@ -37,6 +37,9 @@ namespace Task实现多线程
             Task task5 = new Task(Method1);
             Task task6 = task5.ContinueWith(Method3);
             task5.Start();
+
+            Task.WaitAll();
+
             Console.ReadKey();
         }
 

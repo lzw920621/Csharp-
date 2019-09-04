@@ -261,6 +261,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "预处理指令", "预处�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "重载方法的优先级", "重载方法的优先级\重载方法的优先级.csproj", "{046815E5-7635-4E83-93D1-170E4774AFB2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "枚举类型的遍历", "枚举类型的遍历\枚举类型的遍历.csproj", "{0D59AFA8-FD51-4711-B443-4E374A0DFA4F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -779,6 +781,10 @@ Global
 		{046815E5-7635-4E83-93D1-170E4774AFB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{046815E5-7635-4E83-93D1-170E4774AFB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{046815E5-7635-4E83-93D1-170E4774AFB2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D59AFA8-FD51-4711-B443-4E374A0DFA4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D59AFA8-FD51-4711-B443-4E374A0DFA4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D59AFA8-FD51-4711-B443-4E374A0DFA4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D59AFA8-FD51-4711-B443-4E374A0DFA4F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
