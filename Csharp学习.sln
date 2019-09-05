@@ -269,6 +269,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Parallel并行任务", "Par
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "winform如何让TextBox只接受数字输入", "winform如何让TextBox只接受数字输入\winform如何让TextBox只接受数字输入.csproj", "{621A5568-3350-4075-8A04-413CA7055DF0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "winform动态添加控件", "winform动态添加控件\winform动态添加控件.csproj", "{B51203D7-5A40-47CE-9FBD-CFA81BCF8368}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -803,6 +805,10 @@ Global
 		{621A5568-3350-4075-8A04-413CA7055DF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{621A5568-3350-4075-8A04-413CA7055DF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{621A5568-3350-4075-8A04-413CA7055DF0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B51203D7-5A40-47CE-9FBD-CFA81BCF8368}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B51203D7-5A40-47CE-9FBD-CFA81BCF8368}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B51203D7-5A40-47CE-9FBD-CFA81BCF8368}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B51203D7-5A40-47CE-9FBD-CFA81BCF8368}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
