@@ -34,6 +34,25 @@ namespace Interlocked类为多线程共享变量提供原子操作
             Console.WriteLine(num2);
             Console.WriteLine(num3);
             Console.ReadKey();
+
+
+
+            //Interlocked其他的一些与同步相关的方法
+
+            //CompareExchange<T>(ref T location,T value,T comparand)
+            //检查location的值是不是comparand,是就将value赋给location,并返回location中存储的原始数据
+            Interlocked.CompareExchange(ref num1, 100, 1000);
+
+            //Exchange<T>(ref T location,T value)
+            //将value值赋给location,并返回之前的值
+            Interlocked.Exchange(ref num1, 1000);
+
+            //Decrement(ref int location)  相当于location--
+            //Increment(ref int location)  相当于location++
+
+            //Add(ref int location,int value) 相当于location+value
+
+            //Read(ref long location)
         }
     }
 }
