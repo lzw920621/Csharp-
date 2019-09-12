@@ -271,6 +271,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "winform如何让TextBox只�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "winform动态添加控件", "winform动态添加控件\winform动态添加控件.csproj", "{B51203D7-5A40-47CE-9FBD-CFA81BCF8368}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "下载网页源码", "下载网页源码\下载网页源码.csproj", "{23D60B98-74E1-46FA-B5E2-ACAD34A9B53B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -809,6 +811,10 @@ Global
 		{B51203D7-5A40-47CE-9FBD-CFA81BCF8368}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B51203D7-5A40-47CE-9FBD-CFA81BCF8368}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B51203D7-5A40-47CE-9FBD-CFA81BCF8368}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23D60B98-74E1-46FA-B5E2-ACAD34A9B53B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23D60B98-74E1-46FA-B5E2-ACAD34A9B53B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23D60B98-74E1-46FA-B5E2-ACAD34A9B53B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23D60B98-74E1-46FA-B5E2-ACAD34A9B53B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
