@@ -273,6 +273,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "winform动态添加控件",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "下载网页源码", "下载网页源码\下载网页源码.csproj", "{23D60B98-74E1-46FA-B5E2-ACAD34A9B53B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "下载文件", "下载文件\下载文件.csproj", "{25C40B16-52A3-419F-BD28-64F1A662A78A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -815,6 +817,10 @@ Global
 		{23D60B98-74E1-46FA-B5E2-ACAD34A9B53B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{23D60B98-74E1-46FA-B5E2-ACAD34A9B53B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{23D60B98-74E1-46FA-B5E2-ACAD34A9B53B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{25C40B16-52A3-419F-BD28-64F1A662A78A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25C40B16-52A3-419F-BD28-64F1A662A78A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25C40B16-52A3-419F-BD28-64F1A662A78A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25C40B16-52A3-419F-BD28-64F1A662A78A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

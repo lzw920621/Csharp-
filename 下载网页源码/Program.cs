@@ -21,21 +21,20 @@ namespace 下载网页源码
         /// <param name="Url">网页路径</param>
         /// <returns></returns>
         private static string DownloadCode(string Url)
-        {
-            string page = "";
+        {            
             try
             {
                 WebClient webClient = new WebClient();
                 //webClient.Encoding = Encoding.UTF8;//否则很可能出现乱码
                 //page = webClient.DownloadString(Url);
                 byte[] pageData = webClient.DownloadData(Url);
-                page= Encoding.GetEncoding("utf-8").GetString(pageData);
+                return  Encoding.GetEncoding("utf-8").GetString(pageData);
             }
             catch (Exception ec)
             {
-                throw new Exception(ec.Message.ToString());
+                return ec.Message.ToString();
             }
-            return page;
+
         }
 
     }
