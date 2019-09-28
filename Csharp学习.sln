@@ -279,6 +279,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "键盘钩子", "键盘钩�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lambda实现属性多态模式", "Lambda实现属性多态模式\Lambda实现属性多态模式.csproj", "{64953C82-64CD-4762-8464-775805DDEFCB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharp中的一些坑", "CSharp中的一些坑\CSharp中的一些坑.csproj", "{9B9D1C16-1ACB-45C1-B597-657A38EBE5C2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -833,6 +835,10 @@ Global
 		{64953C82-64CD-4762-8464-775805DDEFCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{64953C82-64CD-4762-8464-775805DDEFCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{64953C82-64CD-4762-8464-775805DDEFCB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B9D1C16-1ACB-45C1-B597-657A38EBE5C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B9D1C16-1ACB-45C1-B597-657A38EBE5C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B9D1C16-1ACB-45C1-B597-657A38EBE5C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B9D1C16-1ACB-45C1-B597-657A38EBE5C2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
