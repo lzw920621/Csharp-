@@ -11,6 +11,7 @@ namespace 通过文件头判断文件的类型
     {
         static void Main(string[] args)
         {
+            bool isTrue = IsAllowedExtension(@"C:\Users\lzw92\Desktop\Sonos.pptx");
         }
 
 
@@ -19,10 +20,10 @@ namespace 通过文件头判断文件的类型
             FileStream stream = new FileStream(filePath, FileMode.Open, FileAccess.Read);
             BinaryReader reader = new BinaryReader(stream);
             string fileclass = "";
-            // byte buffer;
+
             try
             {                
-                for (int i = 0; i < 2; i++)//获取前三个字节
+                for (int i = 0; i < 2; i++)//获取前三个字节所对应的字符串
                 {
                     fileclass += reader.ReadByte().ToString();
                 }
@@ -30,6 +31,11 @@ namespace 通过文件头判断文件的类型
             catch (Exception)
             {
                 throw;
+            }
+            finally
+            {
+                reader.Close();
+                stream.Close();                
             }
 
             if (fileclass == "255216")
@@ -41,11 +47,11 @@ namespace 通过文件头判断文件的类型
                 return false;
             }
 
+            
             /*文件扩展名说明
             * 255216 jpg
             * 208207 doc xls ppt wps
-            * 8075 docx pptx xlsx zip
-            * 5150 txt
+            * 8075 docx pptx xlsx zip           
             * 8297 rar
             * 7790 exe
             * 3780 pdf
