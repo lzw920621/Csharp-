@@ -29,6 +29,7 @@ namespace CSharp中的一些坑
             var box = new PointBox() { Number = 1, Point = new Point { x = 1, y = 2 } };
             box.Number += 3;
             box.Point.x = 5;
+            
         }
     }
 }
