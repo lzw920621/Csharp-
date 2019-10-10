@@ -34,16 +34,19 @@ namespace 特性
             Console.WriteLine("我是方法B");
         }
 
-        //调用者信息特性
+        //调用者信息特性  
+        //当没有提供参数时 会将调用者的 文件路径 行 调用者的方法名 作为参数
         public void MyTrace(string message, 
             [CallerFilePath] string filename = "", 
             [CallerLineNumber] int lineNum = 0,
             [CallerMemberName] string callingMember="")
         {
-            Console.WriteLine("消息:" + message);
-            Console.WriteLine("调用者名称:" + callingMember);
-            Console.WriteLine("调用行:" + lineNum);
-            Console.WriteLine("调用文件路径" + filename);
+            //Console.WriteLine("消息:" + message);
+            //Console.WriteLine("调用者名称:" + callingMember);
+            //Console.WriteLine("调用行:" + lineNum);
+            //Console.WriteLine("调用者文件路径" + filename);
+
+            Console.WriteLine($"{message}\n以下是调用者信息:\n当前方法被{callingMember}调用,在第{lineNum}行,调用者文件路径为:{filename}");
         }
 
     }

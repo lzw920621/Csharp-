@@ -6,6 +6,8 @@ using System.Threading.Tasks;
 
 namespace ConstAndReadonly
 {
+    //const是编译时常量 readonly是运行时常量
+
     class MyClass
     {
         public int a;

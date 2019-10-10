@@ -56,6 +56,17 @@ namespace 闭包中的陷阱
             list[1]();
 
             Console.ReadKey();
+
+            //情形4
+            string[] values = { "x", "y", "z" };
+            var actions = new List<Action>();
+            foreach (string value in values)
+            {
+                actions.Add(() => Console.WriteLine(value));
+            }
+            actions.ForEach(action => action());
+
+            Console.ReadKey();
         }
     }
 }
