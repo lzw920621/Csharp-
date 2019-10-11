@@ -289,6 +289,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "获取本机IP地址", "获
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "winform控件combobox绑定枚举类型", "winform控件combobox绑定枚举类型\winform控件combobox绑定枚举类型.csproj", "{B6D045C2-FC5A-49A3-A575-7C1957C3DC6A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "显示实现接口成员", "显示实现接口成员\显示实现接口成员.csproj", "{EB87CC49-B23A-4BA2-8055-FC77C4EB5C5F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -863,6 +865,10 @@ Global
 		{B6D045C2-FC5A-49A3-A575-7C1957C3DC6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B6D045C2-FC5A-49A3-A575-7C1957C3DC6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B6D045C2-FC5A-49A3-A575-7C1957C3DC6A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB87CC49-B23A-4BA2-8055-FC77C4EB5C5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB87CC49-B23A-4BA2-8055-FC77C4EB5C5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB87CC49-B23A-4BA2-8055-FC77C4EB5C5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB87CC49-B23A-4BA2-8055-FC77C4EB5C5F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
