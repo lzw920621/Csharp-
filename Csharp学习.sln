@@ -293,6 +293,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "显示实现接口成员", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "字符串转枚举类型", "字符串转枚举类型\字符串转枚举类型.csproj", "{239FD3DC-F933-4E17-AA82-8A9F93AF1551}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dictionary的Xml序列化", "Dictionary的Xml序列化\Dictionary的Xml序列化.csproj", "{A8153E35-9A07-495D-95A4-E8B84B4B1AF3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -875,6 +877,10 @@ Global
 		{239FD3DC-F933-4E17-AA82-8A9F93AF1551}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{239FD3DC-F933-4E17-AA82-8A9F93AF1551}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{239FD3DC-F933-4E17-AA82-8A9F93AF1551}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8153E35-9A07-495D-95A4-E8B84B4B1AF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8153E35-9A07-495D-95A4-E8B84B4B1AF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8153E35-9A07-495D-95A4-E8B84B4B1AF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8153E35-9A07-495D-95A4-E8B84B4B1AF3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
