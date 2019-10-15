@@ -301,6 +301,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ICloneable接口实现对�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharp踩坑之Round方法", "CSharp踩坑之Round方法\CSharp踩坑之Round方法.csproj", "{DA8EC0B5-061B-44EF-9251-BC06C5C367C4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "为枚举类型添加描述方法", "为枚举类型添加描述方法\为枚举类型添加描述方法.csproj", "{33033DBA-5CF3-40DD-BB1E-3CBFE26FE9E7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -899,6 +901,10 @@ Global
 		{DA8EC0B5-061B-44EF-9251-BC06C5C367C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DA8EC0B5-061B-44EF-9251-BC06C5C367C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DA8EC0B5-061B-44EF-9251-BC06C5C367C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33033DBA-5CF3-40DD-BB1E-3CBFE26FE9E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33033DBA-5CF3-40DD-BB1E-3CBFE26FE9E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33033DBA-5CF3-40DD-BB1E-3CBFE26FE9E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33033DBA-5CF3-40DD-BB1E-3CBFE26FE9E7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
