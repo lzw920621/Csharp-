@@ -297,6 +297,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dictionary的Xml序列化",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharp踩坑之double强转float", "CSharp踩坑之float强转double\CSharp踩坑之double强转float.csproj", "{8FAC585C-8E23-4112-A6CB-BD2912503FEE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ICloneable接口实现对象的拷贝", "ICloneable接口实现对象的拷贝\ICloneable接口实现对象的拷贝.csproj", "{478D361A-69DD-4BF2-B2FA-B7D34C865C85}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -887,6 +889,10 @@ Global
 		{8FAC585C-8E23-4112-A6CB-BD2912503FEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8FAC585C-8E23-4112-A6CB-BD2912503FEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8FAC585C-8E23-4112-A6CB-BD2912503FEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{478D361A-69DD-4BF2-B2FA-B7D34C865C85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{478D361A-69DD-4BF2-B2FA-B7D34C865C85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{478D361A-69DD-4BF2-B2FA-B7D34C865C85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{478D361A-69DD-4BF2-B2FA-B7D34C865C85}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
