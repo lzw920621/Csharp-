@@ -21,14 +21,14 @@ namespace CSharp中的一些坑
         static void Main(string[] args)
         {
             var ps1 = new Point[] { new Point { x = 1, y = 2 } };
-            ps1[0].x = 3;
+            ps1[0].x = 3;//貌似只有数组可以这样
 
             var ps2 = new List<Point> { new Point { x = 1, y = 2 } };
-            ps2[0].x = 3;
+            ps2[0].x = 3;//集合这样操作会报错
 
             var box = new PointBox() { Number = 1, Point = new Point { x = 1, y = 2 } };
             box.Number += 3;
-            box.Point.x = 5;
+            box.Point.x = 5;//结构体作为字段,修改时要重新赋值一个新的结构体,不能对结构体内部的字段进行修改
             
         }
     }

@@ -295,6 +295,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "字符串转枚举类型", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dictionary的Xml序列化", "Dictionary的Xml序列化\Dictionary的Xml序列化.csproj", "{A8153E35-9A07-495D-95A4-E8B84B4B1AF3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharp踩坑之double强转float", "CSharp踩坑之float强转double\CSharp踩坑之double强转float.csproj", "{8FAC585C-8E23-4112-A6CB-BD2912503FEE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -881,6 +883,10 @@ Global
 		{A8153E35-9A07-495D-95A4-E8B84B4B1AF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A8153E35-9A07-495D-95A4-E8B84B4B1AF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A8153E35-9A07-495D-95A4-E8B84B4B1AF3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8FAC585C-8E23-4112-A6CB-BD2912503FEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FAC585C-8E23-4112-A6CB-BD2912503FEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FAC585C-8E23-4112-A6CB-BD2912503FEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FAC585C-8E23-4112-A6CB-BD2912503FEE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

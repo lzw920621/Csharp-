@@ -14,13 +14,11 @@ namespace 表达式树
             //利用Lambda表达式创建表达式树
             Expression<Func<int, int, int, int>> expr = (x, y, z) => (x + y) / z;
             //编译表达式树,该方法将表达式树表示的代码编译成一个可执行委托
-            int res = expr.Compile()(1, 2, 3);
+            var com = expr.Compile();//编译表达式树 生成委托
+            int res = com(1, 2, 3);
             Console.WriteLine("利用Lambda表达式创建表达式树 : " + res);
 
-            //使用LambdaExpression构建可执行的代码
-            Func<int, int, int, int> fun = (x, y, z) => (x + y) / z;
-            Console.WriteLine("使用LambdaExpression构建可执行的代码 : " + fun(1, 2, 3));
-
+            
             //动态构建表达式树
             ParameterExpression pe1 = Expression.Parameter(typeof(int), "x");
             ParameterExpression pe2 = Expression.Parameter(typeof(int), "y");
