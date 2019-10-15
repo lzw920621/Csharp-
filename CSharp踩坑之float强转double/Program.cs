@@ -12,7 +12,7 @@ namespace CSharp踩坑之double强转float
         {
             double d = 83459338;
             float f = (float)d;//83459336
-            double diff = f - d; //2
+            double diff = f - d; //-2
                       
         }
     }
