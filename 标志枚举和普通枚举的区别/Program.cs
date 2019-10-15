@@ -16,6 +16,8 @@ namespace 标志枚举和普通枚举的区别
             //标志枚举
             StateB stateB = StateB.state1 | StateB.state2 | StateB.state3;
             Console.WriteLine(stateB);
+
+            bool hasState1 = stateB.HasFlag(StateB.state1);
             Console.ReadKey();
         }
     }
