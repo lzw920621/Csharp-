@@ -8,6 +8,9 @@ using System.Text.RegularExpressions;
 
 namespace 拓展方法
 {
+    //注意:如果扩展方法与该类型中定义的方法具有相同的签名，则扩展方法永远不会被调用。
+
+
     //类必须为static的
     public static class StringHelper
     {
@@ -24,7 +27,7 @@ namespace 拓展方法
             return Regex.IsMatch(_string, @"^[+-]?\d*[.]?\d*$");
         }
 
-        public static string SelfProduct(this string _string,int n)
+        public static string Overlying(this string _string,int n)
         {
             string s = "";
             for (int i = 0; i < n; i++)
@@ -44,7 +47,7 @@ namespace 拓展方法
             string str1 = "-002123.5";
             Console.WriteLine(str1.isNumber());
 
-            Console.WriteLine(str1.SelfProduct(3));
+            Console.WriteLine(str1.Overlying(3));
             Console.ReadKey();
             
         }
