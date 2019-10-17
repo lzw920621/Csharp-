@@ -305,6 +305,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "为枚举类型添加描述
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "INotifyPropertyChanged接口实现对象属性变更通知", "INotifyPropertyChanged接口实现对象属性变更通知\INotifyPropertyChanged接口实现对象属性变更通知.csproj", "{471771FA-B569-45D2-B03D-8A749CDBCEF0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "枚举类型继承整数类型", "枚举类型继承整数类型\枚举类型继承整数类型.csproj", "{D2E72E92-ED66-4AB9-89A6-7F506E1474E0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -911,6 +913,10 @@ Global
 		{471771FA-B569-45D2-B03D-8A749CDBCEF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{471771FA-B569-45D2-B03D-8A749CDBCEF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{471771FA-B569-45D2-B03D-8A749CDBCEF0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2E72E92-ED66-4AB9-89A6-7F506E1474E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2E72E92-ED66-4AB9-89A6-7F506E1474E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2E72E92-ED66-4AB9-89A6-7F506E1474E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2E72E92-ED66-4AB9-89A6-7F506E1474E0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
