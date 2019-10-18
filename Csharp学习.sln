@@ -315,6 +315,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "压缩与解压帮助类", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "base64字符串与普通字符串互转", "base64字符串与普通字符串互转\base64字符串与普通字符串互转.csproj", "{93EC8B37-01E4-4E2E-AD8E-AB7AED8B065F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "获取IP地址_主机信息(Host)_浏览器信息", "获取IP地址_主机信息(Host)_浏览器信息\获取IP地址_主机信息(Host)_浏览器信息.csproj", "{48AB8D43-8FFB-4172-9610-E60221075BAB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -941,6 +943,10 @@ Global
 		{93EC8B37-01E4-4E2E-AD8E-AB7AED8B065F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{93EC8B37-01E4-4E2E-AD8E-AB7AED8B065F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{93EC8B37-01E4-4E2E-AD8E-AB7AED8B065F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48AB8D43-8FFB-4172-9610-E60221075BAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48AB8D43-8FFB-4172-9610-E60221075BAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48AB8D43-8FFB-4172-9610-E60221075BAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48AB8D43-8FFB-4172-9610-E60221075BAB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
