@@ -317,6 +317,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "base64字符串与普通字
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "获取IP地址_主机信息(Host)_浏览器信息", "获取IP地址_主机信息(Host)_浏览器信息\获取IP地址_主机信息(Host)_浏览器信息.csproj", "{48AB8D43-8FFB-4172-9610-E60221075BAB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "判断当前是在Debug模式还是在Release模式", "判断当前是在Debug模式还是在Release模式\判断当前是在Debug模式还是在Release模式.csproj", "{757C3366-23F4-4A2D-B987-C0DF603E24BD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -947,6 +949,10 @@ Global
 		{48AB8D43-8FFB-4172-9610-E60221075BAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{48AB8D43-8FFB-4172-9610-E60221075BAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{48AB8D43-8FFB-4172-9610-E60221075BAB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{757C3366-23F4-4A2D-B987-C0DF603E24BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{757C3366-23F4-4A2D-B987-C0DF603E24BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{757C3366-23F4-4A2D-B987-C0DF603E24BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{757C3366-23F4-4A2D-B987-C0DF603E24BD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
