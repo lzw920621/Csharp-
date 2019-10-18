@@ -23,7 +23,7 @@ namespace 键盘钩子
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            gkh.KeyDown += new KeyEventHandler(gkh_KeyDown);
+            gkh.KeyDown += new KeyEventHandler(this.gkh_KeyDown);
         }
 
         private void gkh_KeyDown(object sender, KeyEventArgs e)
