@@ -313,6 +313,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "实现Zip文件解压", "�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "压缩与解压帮助类", "压缩与解压帮助类\压缩与解压帮助类.csproj", "{9D676CD9-5BB0-49D6-8B29-3EBC960C2A28}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "base64字符串与普通字符串互转", "base64字符串与普通字符串互转\base64字符串与普通字符串互转.csproj", "{93EC8B37-01E4-4E2E-AD8E-AB7AED8B065F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -935,6 +937,10 @@ Global
 		{9D676CD9-5BB0-49D6-8B29-3EBC960C2A28}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9D676CD9-5BB0-49D6-8B29-3EBC960C2A28}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9D676CD9-5BB0-49D6-8B29-3EBC960C2A28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93EC8B37-01E4-4E2E-AD8E-AB7AED8B065F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93EC8B37-01E4-4E2E-AD8E-AB7AED8B065F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93EC8B37-01E4-4E2E-AD8E-AB7AED8B065F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93EC8B37-01E4-4E2E-AD8E-AB7AED8B065F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
