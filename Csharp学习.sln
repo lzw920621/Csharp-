@@ -323,6 +323,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "winform停止窗口关闭�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "winform淡出窗体", "winform淡出窗体\winform淡出窗体.csproj", "{4E99237F-5576-4A75-AC04-3705105B0D36}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "截屏操作", "截屏操作\截屏操作.csproj", "{5569A053-CA3A-4BE9-948A-9B8AC081EC53}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -965,6 +967,10 @@ Global
 		{4E99237F-5576-4A75-AC04-3705105B0D36}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4E99237F-5576-4A75-AC04-3705105B0D36}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4E99237F-5576-4A75-AC04-3705105B0D36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5569A053-CA3A-4BE9-948A-9B8AC081EC53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5569A053-CA3A-4BE9-948A-9B8AC081EC53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5569A053-CA3A-4BE9-948A-9B8AC081EC53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5569A053-CA3A-4BE9-948A-9B8AC081EC53}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
