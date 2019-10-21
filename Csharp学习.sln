@@ -329,6 +329,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "隐藏文件夹或文件", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "检测USB插拔", "检测USB插拔\检测USB插拔.csproj", "{E998AA42-096A-4963-9330-6E948A1271F6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "移除类中所有事件的绑定", "移除类中所有事件的绑定\移除类中所有事件的绑定.csproj", "{8BA16807-2E0F-4082-A1A3-0B706FD8A58E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -983,6 +985,10 @@ Global
 		{E998AA42-096A-4963-9330-6E948A1271F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E998AA42-096A-4963-9330-6E948A1271F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E998AA42-096A-4963-9330-6E948A1271F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BA16807-2E0F-4082-A1A3-0B706FD8A58E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BA16807-2E0F-4082-A1A3-0B706FD8A58E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BA16807-2E0F-4082-A1A3-0B706FD8A58E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BA16807-2E0F-4082-A1A3-0B706FD8A58E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
