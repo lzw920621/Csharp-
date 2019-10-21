@@ -321,6 +321,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "判断当前是在Debug模�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "winform停止窗口关闭事件", "winform停止窗口关闭事件\winform停止窗口关闭事件.csproj", "{25E2FF58-9771-4F6F-A245-65A3845F00F8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "winform淡出窗体", "winform淡出窗体\winform淡出窗体.csproj", "{4E99237F-5576-4A75-AC04-3705105B0D36}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -959,6 +961,10 @@ Global
 		{25E2FF58-9771-4F6F-A245-65A3845F00F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{25E2FF58-9771-4F6F-A245-65A3845F00F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{25E2FF58-9771-4F6F-A245-65A3845F00F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E99237F-5576-4A75-AC04-3705105B0D36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E99237F-5576-4A75-AC04-3705105B0D36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E99237F-5576-4A75-AC04-3705105B0D36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E99237F-5576-4A75-AC04-3705105B0D36}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
