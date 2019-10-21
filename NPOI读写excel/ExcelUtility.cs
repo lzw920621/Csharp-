@@ -238,7 +238,7 @@ namespace NPOI读写excel
 
                 sheet = workbook.CreateSheet(sheetName);//创建一个指定名称的sheet的表
 
-                int rowCount = dt.Rows.Count;//行数  
+                int rowCount = dt.Rows.Count;//行数
                 int columnCount = dt.Columns.Count;//列数  
 
                 //设置列头  
