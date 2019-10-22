@@ -337,6 +337,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "获取系统开机时间", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "使用迭代器输出斐波那契数列", "使用迭代器输出斐波那契数列\使用迭代器输出斐波那契数列.csproj", "{487CF969-7413-494D-8D6C-659A9A05A9AA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "最大限度地降低多线程代码的复杂性", "最大限度地降低多线程代码的复杂性\最大限度地降低多线程代码的复杂性.csproj", "{0B9125D2-4E2D-4A98-9362-E10B30FD16AE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1007,6 +1009,10 @@ Global
 		{487CF969-7413-494D-8D6C-659A9A05A9AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{487CF969-7413-494D-8D6C-659A9A05A9AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{487CF969-7413-494D-8D6C-659A9A05A9AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B9125D2-4E2D-4A98-9362-E10B30FD16AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B9125D2-4E2D-4A98-9362-E10B30FD16AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B9125D2-4E2D-4A98-9362-E10B30FD16AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B9125D2-4E2D-4A98-9362-E10B30FD16AE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
