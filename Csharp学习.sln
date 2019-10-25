@@ -343,6 +343,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "float转int的一些注意�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "获取磁盘容量", "获取磁盘容量\获取磁盘容量.csproj", "{B30F7F10-BA43-4D39-B01B-7FD1A6168416}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SendMessage实现进程通信之Sender", "SendMessage实现进程通信之Sender\SendMessage实现进程通信之Sender.csproj", "{895406CD-F09B-4AA3-9633-A49EB2053751}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SendMessage实现进程通信之Receiver", "SendMessage实现进程通信之Receiver\SendMessage实现进程通信之Receiver.csproj", "{D4B7B4F3-8230-404E-AB84-E84505BF7BA0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1025,6 +1029,14 @@ Global
 		{B30F7F10-BA43-4D39-B01B-7FD1A6168416}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B30F7F10-BA43-4D39-B01B-7FD1A6168416}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B30F7F10-BA43-4D39-B01B-7FD1A6168416}.Release|Any CPU.Build.0 = Release|Any CPU
+		{895406CD-F09B-4AA3-9633-A49EB2053751}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{895406CD-F09B-4AA3-9633-A49EB2053751}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{895406CD-F09B-4AA3-9633-A49EB2053751}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{895406CD-F09B-4AA3-9633-A49EB2053751}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4B7B4F3-8230-404E-AB84-E84505BF7BA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4B7B4F3-8230-404E-AB84-E84505BF7BA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4B7B4F3-8230-404E-AB84-E84505BF7BA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4B7B4F3-8230-404E-AB84-E84505BF7BA0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
