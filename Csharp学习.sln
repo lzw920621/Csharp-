@@ -347,6 +347,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SendMessage实现进程通�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SendMessage实现进程通信之Receiver", "SendMessage实现进程通信之Receiver\SendMessage实现进程通信之Receiver.csproj", "{D4B7B4F3-8230-404E-AB84-E84505BF7BA0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "控制电脑关机_重启_注销_锁定_休眠_睡眠", "控制电脑关机_重启_注销_锁定_休眠_睡眠\控制电脑关机_重启_注销_锁定_休眠_睡眠.csproj", "{D46325D6-5647-427C-BCCA-A2D868386D31}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1037,6 +1039,10 @@ Global
 		{D4B7B4F3-8230-404E-AB84-E84505BF7BA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D4B7B4F3-8230-404E-AB84-E84505BF7BA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D4B7B4F3-8230-404E-AB84-E84505BF7BA0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D46325D6-5647-427C-BCCA-A2D868386D31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D46325D6-5647-427C-BCCA-A2D868386D31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D46325D6-5647-427C-BCCA-A2D868386D31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D46325D6-5647-427C-BCCA-A2D868386D31}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
