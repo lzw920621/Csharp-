@@ -339,6 +339,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "使用迭代器输出斐波
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "最大限度地降低多线程代码的复杂性", "最大限度地降低多线程代码的复杂性\最大限度地降低多线程代码的复杂性.csproj", "{0B9125D2-4E2D-4A98-9362-E10B30FD16AE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "float转int的一些注意点", "float转int的一些注意点\float转int的一些注意点.csproj", "{EF469AD5-3AD5-46C3-B392-6A1F4EC87DF0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1013,6 +1015,10 @@ Global
 		{0B9125D2-4E2D-4A98-9362-E10B30FD16AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0B9125D2-4E2D-4A98-9362-E10B30FD16AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0B9125D2-4E2D-4A98-9362-E10B30FD16AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF469AD5-3AD5-46C3-B392-6A1F4EC87DF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF469AD5-3AD5-46C3-B392-6A1F4EC87DF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF469AD5-3AD5-46C3-B392-6A1F4EC87DF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF469AD5-3AD5-46C3-B392-6A1F4EC87DF0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
