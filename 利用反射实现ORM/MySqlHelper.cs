@@ -102,7 +102,7 @@ namespace 利用反射实现ORM
                 OpenConnection();//打开连接
                 MySqlCommand mysqlcom = new MySqlCommand(sql, connection);//sql命令
                 mysqlcom.Parameters.AddRange(parameters);
-                int count = mysqlcom.ExecuteNonQuery();            
+                int count = mysqlcom.ExecuteNonQuery();
                 return count;
             }
             catch(Exception e)

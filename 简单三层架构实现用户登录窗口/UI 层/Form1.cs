@@ -38,5 +38,10 @@ namespace 简单三层架构实现用户登录窗口
             }
             btn_Login.Enabled = true;
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
