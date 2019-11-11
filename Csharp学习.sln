@@ -355,6 +355,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "监测电脑状态", "监�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "获取当前函数名代码行以及源代码文件", "获取当前函数名代码行以及源代码文件\获取当前函数名代码行以及源代码文件.csproj", "{4D70D499-0F5C-4C5B-A225-699D500B1DC3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "获取安装软件和路径", "获取安装软件和路径\获取安装软件和路径.csproj", "{3C28F96B-D91B-42D1-A95C-A03B524E529D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1061,6 +1063,10 @@ Global
 		{4D70D499-0F5C-4C5B-A225-699D500B1DC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4D70D499-0F5C-4C5B-A225-699D500B1DC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4D70D499-0F5C-4C5B-A225-699D500B1DC3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C28F96B-D91B-42D1-A95C-A03B524E529D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C28F96B-D91B-42D1-A95C-A03B524E529D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C28F96B-D91B-42D1-A95C-A03B524E529D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C28F96B-D91B-42D1-A95C-A03B524E529D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
