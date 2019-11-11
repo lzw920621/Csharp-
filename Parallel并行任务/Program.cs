@@ -27,7 +27,7 @@ namespace Parallel并行任务
             Parallel.Invoke(actions);
 
 
-            //2. For方法，主要用于处理针对数组元素的并行操作(数据的并行) 
+            //2. For方法，主要用于处理针对数组元素的并行操作(数据的并行)
             int[] nums = new int[] { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 };
             Parallel.For(0, nums.Length, (i) =>
             {
@@ -41,7 +41,6 @@ namespace Parallel并行任务
             {
                 Console.WriteLine("针对集合元素{0}的一些工作代码……ThreadId={1}", item, Thread.CurrentThread.ManagedThreadId);
             });
-
         }
 
         static void ActionTest(object value)

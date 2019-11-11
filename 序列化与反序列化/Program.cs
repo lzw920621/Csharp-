@@ -53,9 +53,7 @@ namespace 序列化与反序列化
             //json序列化
             JavaScriptSerializer jss = new JavaScriptSerializer();
             string jssStr=jss.Serialize(new Person() { Name = "张三", Gender = '男', Age = 12 });
-
-
-
+            
             Console.ReadKey();
         }
     }

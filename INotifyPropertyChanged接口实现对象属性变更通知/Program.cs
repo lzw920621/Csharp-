@@ -85,7 +85,7 @@ namespace INotifyPropertyChanged接口实现对象属性变更通知
         public string Name
         {
             get{return name;}
-            set { name = value;OnPropertyChanged(); }    
+            set { name = value;OnPropertyChanged(); }
         }
         public int Age
         {

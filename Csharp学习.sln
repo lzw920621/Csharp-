@@ -353,6 +353,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "获取屏幕尺寸", "获�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "监测电脑状态", "监测电脑状态\监测电脑状态.csproj", "{A23793EC-3ED4-4521-AED1-23BB09CAC420}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "获取当前函数名代码行以及源代码文件", "获取当前函数名代码行以及源代码文件\获取当前函数名代码行以及源代码文件.csproj", "{4D70D499-0F5C-4C5B-A225-699D500B1DC3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1055,6 +1057,10 @@ Global
 		{A23793EC-3ED4-4521-AED1-23BB09CAC420}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A23793EC-3ED4-4521-AED1-23BB09CAC420}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A23793EC-3ED4-4521-AED1-23BB09CAC420}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D70D499-0F5C-4C5B-A225-699D500B1DC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D70D499-0F5C-4C5B-A225-699D500B1DC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D70D499-0F5C-4C5B-A225-699D500B1DC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D70D499-0F5C-4C5B-A225-699D500B1DC3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
