@@ -357,6 +357,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "获取当前函数名代码
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "获取安装软件和路径", "获取安装软件和路径\获取安装软件和路径.csproj", "{3C28F96B-D91B-42D1-A95C-A03B524E529D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharp踩坑之类型强转", "CSharp踩坑之类型强转\CSharp踩坑之类型强转.csproj", "{09F36A2C-886B-4E9B-A357-82AB5277EB44}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1067,6 +1069,10 @@ Global
 		{3C28F96B-D91B-42D1-A95C-A03B524E529D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3C28F96B-D91B-42D1-A95C-A03B524E529D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3C28F96B-D91B-42D1-A95C-A03B524E529D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09F36A2C-886B-4E9B-A357-82AB5277EB44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09F36A2C-886B-4E9B-A357-82AB5277EB44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09F36A2C-886B-4E9B-A357-82AB5277EB44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09F36A2C-886B-4E9B-A357-82AB5277EB44}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
