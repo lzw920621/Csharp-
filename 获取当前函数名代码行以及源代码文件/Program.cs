@@ -11,8 +11,8 @@ namespace 获取当前函数名代码行以及源代码文件
     {
         static void Main(string[] args)
         {
-            //Console.WriteLine(Test());
-            
+            Test();
+            Console.ReadKey();
 
             StackTrace st = new StackTrace(new StackFrame(true));
             Console.WriteLine(" Stack trace for current level: {0}", st.ToString());
@@ -25,10 +25,9 @@ namespace 获取当前函数名代码行以及源代码文件
             Console.ReadKey();
         }
 
-        static string Test()
+        static void Test()
         {
-            var st = new System.Diagnostics.StackTrace();
-            return st.GetFrame(0).ToString();
+            Console.WriteLine(Environment.StackTrace);
         }
     }
 }
