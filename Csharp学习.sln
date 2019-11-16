@@ -365,6 +365,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "启动或停止计算机中
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "winform程序退出方法技巧总结", "winform程序退出方法技巧总结\winform程序退出方法技巧总结.csproj", "{4A2AB9D6-A2DA-4538-AAA8-399C2FF7CAEF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "获取当前的操作系统信息", "获取当前的操作系统信息\获取当前的操作系统信息.csproj", "{041A4248-C222-4CD4-9E00-BC5D1B827372}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1091,6 +1093,10 @@ Global
 		{4A2AB9D6-A2DA-4538-AAA8-399C2FF7CAEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4A2AB9D6-A2DA-4538-AAA8-399C2FF7CAEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4A2AB9D6-A2DA-4538-AAA8-399C2FF7CAEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{041A4248-C222-4CD4-9E00-BC5D1B827372}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{041A4248-C222-4CD4-9E00-BC5D1B827372}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{041A4248-C222-4CD4-9E00-BC5D1B827372}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{041A4248-C222-4CD4-9E00-BC5D1B827372}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
