@@ -363,6 +363,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "同步方法", "同步方�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "启动或停止计算机中的服务", "启动或停止计算机中的服务\启动或停止计算机中的服务.csproj", "{33797BA9-BD92-4F4F-8312-03E662731875}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "winform程序退出方法技巧总结", "winform程序退出方法技巧总结\winform程序退出方法技巧总结.csproj", "{4A2AB9D6-A2DA-4538-AAA8-399C2FF7CAEF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1085,6 +1087,10 @@ Global
 		{33797BA9-BD92-4F4F-8312-03E662731875}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{33797BA9-BD92-4F4F-8312-03E662731875}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{33797BA9-BD92-4F4F-8312-03E662731875}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A2AB9D6-A2DA-4538-AAA8-399C2FF7CAEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A2AB9D6-A2DA-4538-AAA8-399C2FF7CAEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A2AB9D6-A2DA-4538-AAA8-399C2FF7CAEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A2AB9D6-A2DA-4538-AAA8-399C2FF7CAEF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
