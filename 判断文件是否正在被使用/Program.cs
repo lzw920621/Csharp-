@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
+using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -12,6 +14,7 @@ namespace 判断文件是否正在被使用
         {
         }
 
+        //第一种 尝试用文件流去读取文件
         public static bool FileIsUsed(string fileFullName)
         {
             bool result = false;
@@ -53,5 +56,33 @@ namespace 判断文件是否正在被使用
             
             return result;
         }
+
+
+        //第二种 API
+        [DllImport("kernel32.dll")]
+        public static extern IntPtr _lopen(string lpPathName, int iReadWrite);
+
+        [DllImport("kernel32.dll")]
+        public static extern bool CloseHandle(IntPtr hObject);
+
+        public const int OF_READWRITE = 2;
+        public const int OF_SHARE_DENY_NONE = 0x40;
+        public readonly IntPtr HFILE_ERROR = new IntPtr(-1);
+        public bool IsFileInUsing(string fileFullName)
+        {
+            if (!File.Exists(fileFullName))
+            {
+                return false;
+            }
+
+            IntPtr vHandle = _lopen(fileFullName, OF_READWRITE | OF_SHARE_DENY_NONE);
+            if (vHandle == HFILE_ERROR)
+            {
+                return true;
+            }
+            CloseHandle(vHandle);
+            return false;
+        }
+
     }
 }
