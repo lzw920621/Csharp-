@@ -14,7 +14,7 @@ namespace winform文本框添加水印的简单方法
     {
         public Form1()
         {
-            InitializeComponent();
+            InitializeComponent();           
         }
 
         private void TextChanged(object sender,EventArgs e)
@@ -39,6 +39,11 @@ namespace winform文本框添加水印的简单方法
             {
                 textBox_Password.Select();
             }
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            
         }
     }
 }

@@ -369,6 +369,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "获取当前的操作系统
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "winform文本框添加水印的简单方法", "winform文本框添加水印的简单方法\winform文本框添加水印的简单方法.csproj", "{AF06C84F-D995-4A90-8E71-3603B494E2DF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "转换两个不同类型但是成员相同的对象", "转换两个不同类型但是成员相同的对象\转换两个不同类型但是成员相同的对象.csproj", "{60932808-D3D4-4280-9CB7-D20C59AD0F65}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1103,6 +1105,10 @@ Global
 		{AF06C84F-D995-4A90-8E71-3603B494E2DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AF06C84F-D995-4A90-8E71-3603B494E2DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AF06C84F-D995-4A90-8E71-3603B494E2DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60932808-D3D4-4280-9CB7-D20C59AD0F65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60932808-D3D4-4280-9CB7-D20C59AD0F65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60932808-D3D4-4280-9CB7-D20C59AD0F65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60932808-D3D4-4280-9CB7-D20C59AD0F65}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
