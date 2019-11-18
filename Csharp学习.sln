@@ -367,6 +367,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "winform程序退出方法�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "获取当前的操作系统信息", "获取当前的操作系统信息\获取当前的操作系统信息.csproj", "{041A4248-C222-4CD4-9E00-BC5D1B827372}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "winform文本框添加水印的简单方法", "winform文本框添加水印的简单方法\winform文本框添加水印的简单方法.csproj", "{AF06C84F-D995-4A90-8E71-3603B494E2DF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1097,6 +1099,10 @@ Global
 		{041A4248-C222-4CD4-9E00-BC5D1B827372}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{041A4248-C222-4CD4-9E00-BC5D1B827372}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{041A4248-C222-4CD4-9E00-BC5D1B827372}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF06C84F-D995-4A90-8E71-3603B494E2DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF06C84F-D995-4A90-8E71-3603B494E2DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF06C84F-D995-4A90-8E71-3603B494E2DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF06C84F-D995-4A90-8E71-3603B494E2DF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
