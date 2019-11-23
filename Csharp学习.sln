@@ -377,6 +377,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "并行Linq查询", "并行L
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "子类调用父类静态成员", "子类调用父类静态成员\子类调用父类静态成员.csproj", "{DA3E32DC-0B4F-4F41-8753-EBF4DF879E7D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "小技巧_给事件添加一个空方法以避免空检查", "小技巧_给事件添加一个空委托以避免空检查\小技巧_给事件添加一个空方法以避免空检查.csproj", "{2DEB7DAC-2785-42C4-B483-A57AF283AF8F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1127,6 +1129,10 @@ Global
 		{DA3E32DC-0B4F-4F41-8753-EBF4DF879E7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DA3E32DC-0B4F-4F41-8753-EBF4DF879E7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DA3E32DC-0B4F-4F41-8753-EBF4DF879E7D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2DEB7DAC-2785-42C4-B483-A57AF283AF8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DEB7DAC-2785-42C4-B483-A57AF283AF8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DEB7DAC-2785-42C4-B483-A57AF283AF8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DEB7DAC-2785-42C4-B483-A57AF283AF8F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
