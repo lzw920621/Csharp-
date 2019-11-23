@@ -375,6 +375,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "线程安全集合", "线�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "并行Linq查询", "并行Linq查询\并行Linq查询.csproj", "{CFE297AC-340C-43C0-8B2C-41640415C68B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "子类调用父类静态成员", "子类调用父类静态成员\子类调用父类静态成员.csproj", "{DA3E32DC-0B4F-4F41-8753-EBF4DF879E7D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1121,6 +1123,10 @@ Global
 		{CFE297AC-340C-43C0-8B2C-41640415C68B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CFE297AC-340C-43C0-8B2C-41640415C68B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CFE297AC-340C-43C0-8B2C-41640415C68B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA3E32DC-0B4F-4F41-8753-EBF4DF879E7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA3E32DC-0B4F-4F41-8753-EBF4DF879E7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA3E32DC-0B4F-4F41-8753-EBF4DF879E7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA3E32DC-0B4F-4F41-8753-EBF4DF879E7D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
