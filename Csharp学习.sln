@@ -379,6 +379,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "子类调用父类静态成
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "小技巧_给事件添加一个空方法以避免空检查", "小技巧_给事件添加一个空委托以避免空检查\小技巧_给事件添加一个空方法以避免空检查.csproj", "{2DEB7DAC-2785-42C4-B483-A57AF283AF8F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "使用拓展方法来拓展接口", "使用拓展方法来拓展接口\使用拓展方法来拓展接口.csproj", "{DA43FE04-FB20-4901-A60C-4A2DD0ED8C38}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1133,6 +1135,10 @@ Global
 		{2DEB7DAC-2785-42C4-B483-A57AF283AF8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2DEB7DAC-2785-42C4-B483-A57AF283AF8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2DEB7DAC-2785-42C4-B483-A57AF283AF8F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA43FE04-FB20-4901-A60C-4A2DD0ED8C38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA43FE04-FB20-4901-A60C-4A2DD0ED8C38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA43FE04-FB20-4901-A60C-4A2DD0ED8C38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA43FE04-FB20-4901-A60C-4A2DD0ED8C38}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

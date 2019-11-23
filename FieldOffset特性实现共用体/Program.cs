@@ -30,7 +30,7 @@ namespace FieldOffset特性实现共用体
             {
                 Address = nIPAddress
             };
-            Console.WriteLine("{0}", address.Address);//10001000100100100111000110000010-->2291298690
+            Console.WriteLine("{0}", address.Address);//10001000 10010010 01110001 10000010-->2291298690
             Console.WriteLine("{0}", address.Byte1);//10001000-->136
             Console.WriteLine("{0}", address.Byte2);//10010010-->146
             Console.WriteLine("{0}", address.Byte3);//01110001-->113
