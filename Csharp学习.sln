@@ -381,6 +381,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "小技巧_给事件添加�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "使用拓展方法来拓展接口", "使用拓展方法来拓展接口\使用拓展方法来拓展接口.csproj", "{DA43FE04-FB20-4901-A60C-4A2DD0ED8C38}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "构造函数的初始化语句", "构造函数的初始化语句\构造函数的初始化语句.csproj", "{B59E7819-96AB-4531-820D-9F3DA58930DF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1139,6 +1141,10 @@ Global
 		{DA43FE04-FB20-4901-A60C-4A2DD0ED8C38}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DA43FE04-FB20-4901-A60C-4A2DD0ED8C38}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DA43FE04-FB20-4901-A60C-4A2DD0ED8C38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B59E7819-96AB-4531-820D-9F3DA58930DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B59E7819-96AB-4531-820D-9F3DA58930DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B59E7819-96AB-4531-820D-9F3DA58930DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B59E7819-96AB-4531-820D-9F3DA58930DF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
