@@ -385,6 +385,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "构造函数的初始化语
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "尾递归求斐波拉契数列", "尾递归求斐波拉契数列\尾递归求斐波拉契数列.csproj", "{A6BD311E-C7F0-4599-9832-0A76F99374F0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "判断委托是实例方法还是静态方法", "判断委托是实例方法还是静态方法\判断委托是实例方法还是静态方法.csproj", "{B4F2DF88-5F4E-45DD-AF6B-96C264CB7947}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1151,6 +1153,10 @@ Global
 		{A6BD311E-C7F0-4599-9832-0A76F99374F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A6BD311E-C7F0-4599-9832-0A76F99374F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A6BD311E-C7F0-4599-9832-0A76F99374F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4F2DF88-5F4E-45DD-AF6B-96C264CB7947}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4F2DF88-5F4E-45DD-AF6B-96C264CB7947}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4F2DF88-5F4E-45DD-AF6B-96C264CB7947}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4F2DF88-5F4E-45DD-AF6B-96C264CB7947}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
