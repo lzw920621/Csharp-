@@ -6,6 +6,10 @@ using System.Threading.Tasks;
 
 namespace 泛型的类型约束
 {
+    interface IMyInterface
+    {
+
+    }
     
     class Program
     {
@@ -24,6 +28,12 @@ namespace 泛型的类型约束
         {
 
         }
+
+        static void MyMethod3<T>(T t) where T : IMyInterface //约束:T必须实现IMyInterface接口
+        {
+
+        }
+
         //构造函数类型约束
         public T CreateInstance<T>() where T:new()//T必须有一个可以创建类型实例的无参构造函数
         {

@@ -383,6 +383,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "使用拓展方法来拓展
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "构造函数的初始化语句", "构造函数的初始化语句\构造函数的初始化语句.csproj", "{B59E7819-96AB-4531-820D-9F3DA58930DF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "尾递归求斐波拉契数列", "尾递归求斐波拉契数列\尾递归求斐波拉契数列.csproj", "{A6BD311E-C7F0-4599-9832-0A76F99374F0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1145,6 +1147,10 @@ Global
 		{B59E7819-96AB-4531-820D-9F3DA58930DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B59E7819-96AB-4531-820D-9F3DA58930DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B59E7819-96AB-4531-820D-9F3DA58930DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6BD311E-C7F0-4599-9832-0A76F99374F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6BD311E-C7F0-4599-9832-0A76F99374F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6BD311E-C7F0-4599-9832-0A76F99374F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6BD311E-C7F0-4599-9832-0A76F99374F0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
