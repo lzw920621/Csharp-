@@ -401,6 +401,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "杀死进程和子进程", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "获取基类的所有子类名", "获取基类的所有子类名\获取基类的所有子类名.csproj", "{C5D2A67D-C042-47F3-AD9E-EC36850BB078}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "快速查询磁盘中的文件", "快速查询磁盘中的文件\快速查询磁盘中的文件.csproj", "{9AF3F5C3-FD00-4B2B-B0B0-280B40536CA6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1199,6 +1201,10 @@ Global
 		{C5D2A67D-C042-47F3-AD9E-EC36850BB078}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C5D2A67D-C042-47F3-AD9E-EC36850BB078}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C5D2A67D-C042-47F3-AD9E-EC36850BB078}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9AF3F5C3-FD00-4B2B-B0B0-280B40536CA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9AF3F5C3-FD00-4B2B-B0B0-280B40536CA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9AF3F5C3-FD00-4B2B-B0B0-280B40536CA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9AF3F5C3-FD00-4B2B-B0B0-280B40536CA6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
