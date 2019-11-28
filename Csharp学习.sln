@@ -397,6 +397,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "阻止关闭显示器和系
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "控制显示器的开启和关闭", "控制显示器的开启和关闭\控制显示器的开启和关闭.csproj", "{9393F884-1623-4289-9331-5A6A833A77D2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "杀死进程和子进程", "杀死进程和子进程\杀死进程和子进程.csproj", "{5FE6358C-3D92-40E0-8A92-73C20FDF142C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1187,6 +1189,10 @@ Global
 		{9393F884-1623-4289-9331-5A6A833A77D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9393F884-1623-4289-9331-5A6A833A77D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9393F884-1623-4289-9331-5A6A833A77D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5FE6358C-3D92-40E0-8A92-73C20FDF142C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FE6358C-3D92-40E0-8A92-73C20FDF142C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FE6358C-3D92-40E0-8A92-73C20FDF142C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FE6358C-3D92-40E0-8A92-73C20FDF142C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
