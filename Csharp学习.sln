@@ -393,6 +393,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "如何正确的保留异常
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "多线程中的异常处理", "多线程中的异常处理\多线程中的异常处理.csproj", "{DAB317BF-1926-4440-9796-DA068A1EA43B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "阻止关闭显示器和系统待机", "阻止关闭显示器和系统待机\阻止关闭显示器和系统待机.csproj", "{080A18A1-5F10-4FE4-B54A-6C386B7213BF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1175,6 +1177,10 @@ Global
 		{DAB317BF-1926-4440-9796-DA068A1EA43B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DAB317BF-1926-4440-9796-DA068A1EA43B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DAB317BF-1926-4440-9796-DA068A1EA43B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{080A18A1-5F10-4FE4-B54A-6C386B7213BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{080A18A1-5F10-4FE4-B54A-6C386B7213BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{080A18A1-5F10-4FE4-B54A-6C386B7213BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{080A18A1-5F10-4FE4-B54A-6C386B7213BF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
