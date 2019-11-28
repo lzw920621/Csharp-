@@ -389,6 +389,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "判断委托是实例方法
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "自定义性能计数器", "自定义性能计数器\自定义性能计数器.csproj", "{E146E326-4AC7-486F-BD9E-9045BC781A15}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "如何正确的保留异常的原始栈信息", "如何正确的保留异常的原始栈信息\如何正确的保留异常的原始栈信息.csproj", "{C03FCE7E-E92E-4CD7-BDA0-156A1B3F2B46}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1163,6 +1165,10 @@ Global
 		{E146E326-4AC7-486F-BD9E-9045BC781A15}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E146E326-4AC7-486F-BD9E-9045BC781A15}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E146E326-4AC7-486F-BD9E-9045BC781A15}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C03FCE7E-E92E-4CD7-BDA0-156A1B3F2B46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C03FCE7E-E92E-4CD7-BDA0-156A1B3F2B46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C03FCE7E-E92E-4CD7-BDA0-156A1B3F2B46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C03FCE7E-E92E-4CD7-BDA0-156A1B3F2B46}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
