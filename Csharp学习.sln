@@ -391,6 +391,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "自定义性能计数器", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "如何正确的保留异常的原始栈信息", "如何正确的保留异常的原始栈信息\如何正确的保留异常的原始栈信息.csproj", "{C03FCE7E-E92E-4CD7-BDA0-156A1B3F2B46}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "多线程中的异常处理", "多线程中的异常处理\多线程中的异常处理.csproj", "{DAB317BF-1926-4440-9796-DA068A1EA43B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1169,6 +1171,10 @@ Global
 		{C03FCE7E-E92E-4CD7-BDA0-156A1B3F2B46}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C03FCE7E-E92E-4CD7-BDA0-156A1B3F2B46}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C03FCE7E-E92E-4CD7-BDA0-156A1B3F2B46}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DAB317BF-1926-4440-9796-DA068A1EA43B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAB317BF-1926-4440-9796-DA068A1EA43B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAB317BF-1926-4440-9796-DA068A1EA43B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAB317BF-1926-4440-9796-DA068A1EA43B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
