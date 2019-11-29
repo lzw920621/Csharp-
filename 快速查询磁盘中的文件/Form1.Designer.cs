@@ -30,7 +30,7 @@
         {
             this.listBox_File_List = new System.Windows.Forms.ListBox();
             this.button_Search = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.textBox_Dir = new System.Windows.Forms.TextBox();
             this.textBox_Count = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
@@ -53,12 +53,12 @@
             this.button_Search.UseVisualStyleBackColor = true;
             this.button_Search.Click += new System.EventHandler(this.button_Search_Click);
             // 
-            // textBox1
+            // textBox_Dir
             // 
-            this.textBox1.Location = new System.Drawing.Point(54, 35);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(588, 25);
-            this.textBox1.TabIndex = 2;
+            this.textBox_Dir.Location = new System.Drawing.Point(54, 35);
+            this.textBox_Dir.Name = "textBox_Dir";
+            this.textBox_Dir.Size = new System.Drawing.Size(588, 25);
+            this.textBox_Dir.TabIndex = 2;
             // 
             // textBox_Count
             // 
@@ -73,7 +73,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(782, 467);
             this.Controls.Add(this.textBox_Count);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.textBox_Dir);
             this.Controls.Add(this.button_Search);
             this.Controls.Add(this.listBox_File_List);
             this.Name = "Form1";
@@ -88,7 +88,7 @@
 
         private System.Windows.Forms.ListBox listBox_File_List;
         private System.Windows.Forms.Button button_Search;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox textBox_Dir;
         private System.Windows.Forms.TextBox textBox_Count;
     }
 }

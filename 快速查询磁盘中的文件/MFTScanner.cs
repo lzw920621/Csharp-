@@ -269,5 +269,12 @@ namespace 快速查询磁盘中的文件
         {
             return (new MFTScanner()).EnumerateFiles(drive.Name);
         }
+
+        public static IEnumerable<string> EnumerateFilesInForder(this MFTScanner mFTScanner, string dir)
+        {
+            string disk = dir.Split('\\')[0] + "\\";
+            var files = mFTScanner.EnumerateFiles(disk).Where(file => file.StartsWith(dir));
+            return files;
+        }
     }
 }

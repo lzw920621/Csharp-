@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.IO;
 
 namespace 快速查询磁盘中的文件
 {
@@ -30,8 +31,17 @@ namespace 快速查询磁盘中的文件
                 MessageBox.Show("当前不是管理员身份!!!");
                 return;
             }
+            string dir = textBox_Dir.Text;
+            if(!Directory.Exists(dir))
+            {
+                MessageBox.Show("请输入文件夹路径");
+                return;
+            }
+
             MFTScanner mFTScanner = new MFTScanner();
-            var files = mFTScanner.EnumerateFiles(@"I:\").ToArray();
+            //var files = mFTScanner.EnumerateFiles(@"I:\").ToArray();
+
+            var files = mFTScanner.EnumerateFilesInForder(dir).ToArray();
             for (int i = 0; i < 100 && i<files.Length; i++)//只显示前100个文件名
             {
                 listBox_File_List.Items.Add(files[i]);
