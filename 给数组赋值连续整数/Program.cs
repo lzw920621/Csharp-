@@ -15,6 +15,8 @@ namespace 给数组赋值连续整数
 
             int[] array3 = Enumerable.Range(0, 10).Select(x => x * x).ToArray();//赋值0-10的平方
 
+            //给数组赋值相同的数
+            int[] array4 = Enumerable.Repeat(50, 100).ToArray();//将长度100的数组的值初始化为50
 
             //判断两个数组中的元素是否相等
             int[] array1 = new int[] { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
