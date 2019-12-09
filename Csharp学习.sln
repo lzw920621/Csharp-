@@ -405,6 +405,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "快速查询磁盘中的文
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "实现简单的对象池", "实现简单的对象池\实现简单的对象池.csproj", "{2A273846-30C1-4A54-B947-55A91844FA17}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "利用反射调用私有方法", "利用反射调用私有方法\利用反射调用私有方法.csproj", "{6B368624-F55F-4867-B9DA-3017B2BC8DD8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1211,6 +1213,10 @@ Global
 		{2A273846-30C1-4A54-B947-55A91844FA17}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2A273846-30C1-4A54-B947-55A91844FA17}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2A273846-30C1-4A54-B947-55A91844FA17}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B368624-F55F-4867-B9DA-3017B2BC8DD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B368624-F55F-4867-B9DA-3017B2BC8DD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B368624-F55F-4867-B9DA-3017B2BC8DD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B368624-F55F-4867-B9DA-3017B2BC8DD8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
