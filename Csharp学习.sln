@@ -407,6 +407,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "实现简单的对象池", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "利用反射调用私有方法", "利用反射调用私有方法\利用反射调用私有方法.csproj", "{6B368624-F55F-4867-B9DA-3017B2BC8DD8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "实现哈夫曼编码", "实现哈夫曼编码\实现哈夫曼编码.csproj", "{3AEDFB0D-BCC8-4B52-AF51-D27788F477D3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1217,6 +1219,10 @@ Global
 		{6B368624-F55F-4867-B9DA-3017B2BC8DD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6B368624-F55F-4867-B9DA-3017B2BC8DD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6B368624-F55F-4867-B9DA-3017B2BC8DD8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3AEDFB0D-BCC8-4B52-AF51-D27788F477D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3AEDFB0D-BCC8-4B52-AF51-D27788F477D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3AEDFB0D-BCC8-4B52-AF51-D27788F477D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3AEDFB0D-BCC8-4B52-AF51-D27788F477D3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
