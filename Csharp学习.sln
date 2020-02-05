@@ -409,6 +409,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "利用反射调用私有方
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "实现哈夫曼编码", "实现哈夫曼编码\实现哈夫曼编码.csproj", "{3AEDFB0D-BCC8-4B52-AF51-D27788F477D3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "使用Conditional特性代替条件编译", "使用Conditional特性代替条件编译\使用Conditional特性代替条件编译.csproj", "{3422BC97-3860-45D2-B11F-DD411E89828B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1223,6 +1225,10 @@ Global
 		{3AEDFB0D-BCC8-4B52-AF51-D27788F477D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3AEDFB0D-BCC8-4B52-AF51-D27788F477D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3AEDFB0D-BCC8-4B52-AF51-D27788F477D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3422BC97-3860-45D2-B11F-DD411E89828B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3422BC97-3860-45D2-B11F-DD411E89828B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3422BC97-3860-45D2-B11F-DD411E89828B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3422BC97-3860-45D2-B11F-DD411E89828B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
